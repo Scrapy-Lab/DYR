@@ -1,7 +1,7 @@
 /* Preloader */
 
 .handle-preloader{
-	background-color:#e4c590;
+	background-color:#000000;
 }
 
 .handle-preloader {
@@ -62,6 +62,11 @@
   position: absolute;
 }
 
+span.name_dyr {
+    margin-left: -13px;
+    font-size: 19px;
+}
+
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
   font-weight: 500;
   letter-spacing: 15px;
@@ -70,11 +75,14 @@
   font-size: 70px;
   line-height: 70px;
   text-transform: uppercase;
-  color: transparent;
+  /* color: transparent; */
+  color:  rgb(255, 243, 243);
   -webkit-text-stroke-width: 1px;
-  
-  -webkit-text-stroke-color: rgba(17, 17, 17, 0.5); 
+
+  -webkit-text-stroke-color: var(--main-color);
 }
+
+
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {animation-delay: 0.4s;}
@@ -97,7 +105,7 @@
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  
+
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
@@ -106,7 +114,7 @@
 
 .handle-preloader .animation-preloader .spinner{
   border: 3px solid #ffffff;
-  border-top-color: rgba(17, 17, 17, 1); 
+  border-top-color: rgba(17, 17, 17, 1);
 }
 
 /* AnimaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n del preloader */

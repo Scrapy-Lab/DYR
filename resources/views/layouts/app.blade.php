@@ -33,13 +33,15 @@
                             <span data-text-preloader="D" class="letters-loading">
                                 D
                             </span>
-                            <span data-text-preloader="E" class="letters-loading">
-                                E
+                            <span data-text-preloader="Y" class="letters-loading">
+                                Y
                             </span>
-                            <span data-text-preloader="L" class="letters-loading">
-                                L
+                            <span data-text-preloader="R" class="letters-loading">
+                                R
                             </span>
-                            <span data-text-preloader="I" class="letters-loading">
+                            <br>
+                            <span class="name_dyr">Design Your Restaurant</span>
+                            {{-- <span data-text-preloader="I" class="letters-loading">
                                 I
                             </span>
                             <span data-text-preloader="C" class="letters-loading">
@@ -47,7 +49,7 @@
                             </span>
                             <span data-text-preloader="I" class="letters-loading">
                                 I
-                            </span>
+                            </span> --}}
                         </div>
                     </div>
                 </div>

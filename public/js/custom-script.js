@@ -19,11 +19,11 @@ if($('.main-header').length){
 
 	function hasScrolled() {
 	    var st = $(this).scrollTop();
-	    
+
 	    // Make sure they scroll more than delta
 	    if(Math.abs(lastScrollTop - st) <= delta)
 	        return;
-	    
+
 	    // If they scrolled down and are past the navbar, add class .nav-up.
 	    // This is necessary so you never see what is "behind" the navbar.
 	    if (st > lastScrollTop && st > navbarHeight){
@@ -35,17 +35,17 @@ if($('.main-header').length){
 	            $('.main-header').removeClass('header-up').addClass('header-down');
 	        }
 	    }
-	    
+
 	    lastScrollTop = st;
 	}
 }
-	
+
 
 (function($) {
-	
+
 	"use strict";
-	
-	
+
+
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.loader-wrap').length){
@@ -58,8 +58,8 @@ if($('.main-header').length){
             $('.loader-wrap').delay(200).fadeOut(500);
         })
     }
-	
-	
+
+
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		if($('.main-header').length){
@@ -111,7 +111,7 @@ if($('.main-header').length){
 	        }
 	    });
 	}
-	
+
 	//Hidden Bar Menu Config
 	function hiddenBarMenuConfig() {
 		var menuWrap = $('.hidden-bar .side-menu');
@@ -136,7 +136,7 @@ if($('.main-header').length){
 
 	//Custom Scroll for Hidden Sidebar
 	if ($('.hidden-bar').length) {
-		
+
 		$('.hidden-bar-closer,.menu-backdrop').on('click', function () {
 			$('.hidden-bar,body').removeClass('visible-sidebar');
 			$('.side-menu ul li.dropdown ul').slideUp();
@@ -160,7 +160,7 @@ if($('.main-header').length){
 			autoplay: true,
 			autoplaySpeed: 7000,
 			effect: "fade",
-			speed: 1000,		
+			speed: 1000,
 			margin: 0,
 			slidesPerView: 1,
 			spaceBetween: 0,
@@ -174,8 +174,8 @@ if($('.main-header').length){
 	      }
 		});
 	}
-	
-	
+
+
 	//Parallax Scene for Icons
 	if($('.parallax-scene-1').length){
 		var scene = $('.parallax-scene-1').get(0);
@@ -193,8 +193,8 @@ if($('.main-header').length){
 		var scene = $('.parallax-scene-4').get(0);
 		var parallaxInstance = new Parallax(scene);
 	}
-	
-	
+
+
 
 
 	//Dish Gallery Carousel
@@ -226,7 +226,7 @@ if($('.main-header').length){
 					items:4
 				}
 			}
-		});    		
+		});
 	}
 
 	//Testimonials Carousel
@@ -258,7 +258,7 @@ if($('.main-header').length){
 					items:3
 				}
 			}
-		});    		
+		});
 	}
 
 	//Gallery Carousel
@@ -282,7 +282,7 @@ if($('.main-header').length){
 					items:1
 				}
 			}
-		});    		
+		});
 	}
 
 	// Testimonials Carousel
@@ -325,13 +325,13 @@ if($('.main-header').length){
 					centered: true,
 					autoplayTimeout: 5000
 				})
-				
+
 		.on('click', '.owl-item', function () {
 			$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
 		})
 		.on('changed.owl.carousel', function (e) {
 			if (!flag) {
-				flag = true;		
+				flag = true;
 				$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
 				flag = false;
 			}
@@ -402,7 +402,7 @@ if($('.main-header').length){
 		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
 			e.preventDefault();
 			var target = $($(this).attr('data-tab'));
-			
+
 			if ($(target).is(':visible')){
 				return false;
 			}else{
@@ -445,10 +445,10 @@ if($('.main-header').length){
 		   $('html, body').animate({
 			   scrollTop: $(target).offset().top
 			 }, 1500);
-	
+
 		});
 	}
-	
+
 	// Elements Animation
 	if($('.wow').length){
 		var wow = new WOW(
@@ -462,20 +462,20 @@ if($('.main-header').length){
 		);
 		wow.init();
 	}
-	
-	
+
+
 /* ==========================================================================
    When document is Scrollig, do
    ========================================================================== */
-	
+
 	$(window).on('scroll', function() {
 		headerStyle();
 	});
-	
+
 /* ==========================================================================
    When document is loading, do
    ========================================================================== */
-	
+
 	$(window).on('load', function() {
 		handlePreloader();
 		if($('body.page-loaded').length){
@@ -486,11 +486,11 @@ if($('.main-header').length){
 /* ==========================================================================
    When document is Resized
    ========================================================================== */
-	
+
 	$(window).on('resize', function() {
-		
+
 	});
-	
-	
+
+
 
 })(window.jQuery);

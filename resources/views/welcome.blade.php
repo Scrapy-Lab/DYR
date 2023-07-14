@@ -48,8 +48,8 @@
                                                 <div class="link">
                                                     <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
                                                         <span class="btn-wrap">
-                                                            <span class="text-one">view our menu</span>
-                                                            <span class="text-two">view our menu</span>
+                                                            <span class="text-one">view our Design</span>
+                                                            <span class="text-two">view our Design</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -137,8 +137,8 @@
             <div class="title-box centered">
                 <div class="subtitle"><span>Flavors for royalty</span></div>
                 <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                <h2>We Offer Top Notch</h2>
-                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div>
+                <h2>From Concept to Reality !</h2>
+                <div class="text">Making Stylish Restaurants Come Alive. <br>Enhancing Restaurants with Style.</div>
             </div>
             <div class="row justify-content-center clearfix">
                 <!--Block-->
@@ -183,7 +183,7 @@
                         <div class="title-box centered">
                             <div class="subtitle"><span>Our story</span></div>
                             <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                            <h2>Every Flavor Tells a Story</h2>
+                            <h2>Every Design Tells a Story !</h2>
                             <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
                         </div>
                         <div class="booking-info">
@@ -264,16 +264,16 @@
             <div class="title-box centered">
                 <div class="subtitle"><span>Special selection</span></div>
                 <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
-                <h2>Delicious Menu</h2>
+                <h2>Categories</h2>
             </div>
 
             <div class="tabs-box menu-tabs">
                 <div class="buttons">
                     <ul class="tab-buttons clearfix">
-                        <li class="tab-btn active-btn" data-tab="#tab-1"><span>MORNING</span></li>
-                        <li class="tab-btn" data-tab="#tab-2"><span>WEEKDAY LUNCH</span></li>
-                        <li class="tab-btn" data-tab="#tab-3"><span>DINNER</span></li>
-                        <li class="tab-btn" data-tab="#tab-4"><span>WINES</span></li>
+                        <li class="tab-btn active-btn" data-tab="#tab-1"><span>Fine Dining</span></li>
+                        <li class="tab-btn" data-tab="#tab-2"><span>Casual Dining</span></li>
+                        <li class="tab-btn" data-tab="#tab-3"><span>Ethnic Cuisine</span></li>
+                        <li class="tab-btn" data-tab="#tab-4"><span>Cafés and Bistros</span></li>
                     </ul>
                 </div>
                 <div class="tabs-content">
