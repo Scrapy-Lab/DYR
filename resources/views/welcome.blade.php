@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-
     <!--Info Back Drop-->
     <div class="info-back-drop"></div>
 
@@ -8,7 +7,9 @@
     <section class="info-bar">
         <div class="inner-box">
             <div class="cross-icon"><span class="far fa-close"></span></div>
-            <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+            <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img
+                        src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a>
+            </div>
             <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
 
             <h2>Visit Us</h2>
@@ -36,15 +37,17 @@
                     <div class="swiper-slide slide-item">
                         <div class="image-layer" style="background-image: url(images/main-slider/slider-1.jpg);"></div>
                         <div class="auto-container">
-                          <div class="content-box">
+                            <div class="content-box">
                                 <div class="content">
                                     <div class="clearfix">
                                         <div class="inner">
                                             <div class="subtitle"><span>delightful experience</span></div>
-                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
+                                                    title=""></div>
                                             <h1><span>Flavors Inspired by <br>the Seasons</span></h1>
                                             <div class="text">Come with family & feel the joy of mouthwatering food</div>
-                                            <div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                            <div class="links-box wow fadeInUp" data-wow-delay="0ms"
+                                                data-wow-duration="1500ms">
                                                 <div class="link">
                                                     <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
                                                         <span class="btn-wrap">
@@ -65,12 +68,13 @@
                     <div class="swiper-slide slide-item">
                         <div class="image-layer" style="background-image: url(images/main-slider/slider-2.jpg);"></div>
                         <div class="auto-container">
-                          <div class="content-box">
+                            <div class="content-box">
                                 <div class="content">
                                     <div class="clearfix">
                                         <div class="inner">
                                             <div class="subtitle"><span>amazing & delicious</span></div>
-                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
+                                                    title=""></div>
                                             <h1><span>Where every flavor <br>tells a story</span></h1>
                                             <div class="text">Come with family & feel the joy of mouthwatering food</div>
                                             <div class="links-box clearfix">
@@ -94,12 +98,13 @@
                     <div class="swiper-slide slide-item">
                         <div class="image-layer" style="background-image: url(images/main-slider/slider-3.jpg);"></div>
                         <div class="auto-container">
-                          <div class="content-box">
+                            <div class="content-box">
                                 <div class="content">
                                     <div class="clearfix">
                                         <div class="inner">
                                             <div class="subtitle"><span>Tradational & Hygine</span></div>
-                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                                            <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
+                                                    title=""></div>
                                             <h1><span>For the love of <br>delicious food</span></h1>
                                             <div class="text">Come with family & feel the joy of mouthwatering food</div>
                                             <div class="links-box clearfix">
@@ -125,7 +130,9 @@
             </div>
         </div>
 
-        <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img src="images/resource/book-icon-1.png" alt="" title=""></span><span class="txt">book a table</span></a></div>
+        <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img
+                        src="images/resource/book-icon-1.png" alt="" title=""></span><span
+                    class="txt">book a table</span></a></div>
     </section>
     <!--End Banner Section -->
 
@@ -144,7 +151,8 @@
                 <!--Block-->
                 <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        <div class="image"><a href="menu-list-1.html"><img src="images/resource/offer-image-1.jpg" alt=""></a></div>
+                        <div class="image"><a href="menu-list-1.html"><img src="images/resource/offer-image-1.jpg"
+                                    alt=""></a></div>
                         <h3><a href="menu-list-1.html">Breakfast</a></h3>
                         <div class="more-link"><a href="menu-list-1.html">view menu</a></div>
                     </div>
@@ -153,7 +161,8 @@
                 <!--Block-->
                 <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-                        <div class="image"><a href="menu-list-2.html"><img src="images/resource/offer-image-2.jpg" alt=""></a></div>
+                        <div class="image"><a href="menu-list-2.html"><img src="images/resource/offer-image-2.jpg"
+                                    alt=""></a></div>
                         <h3><a href="menu-list-2.html">Appetizers</a></h3>
                         <div class="more-link"><a href="menu-list-2.html">view menu</a></div>
                     </div>
@@ -162,7 +171,8 @@
                 <!--Block-->
                 <div class="offer-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                        <div class="image"><a href="menu-list-3.html"><img src="images/resource/offer-image-3.jpg" alt=""></a></div>
+                        <div class="image"><a href="menu-list-3.html"><img src="images/resource/offer-image-3.jpg"
+                                    alt=""></a></div>
                         <h3><a href="menu-list-3.html">Drinks</a></h3>
                         <div class="more-link"><a href="menu-list-3.html">view menu</a></div>
                     </div>
@@ -182,9 +192,13 @@
                     <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="title-box centered">
                             <div class="subtitle"><span>Our story</span></div>
-                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                            <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
+                                    title=""></div>
                             <h2>Every Design Tells a Story !</h2>
-                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
+                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry
+                                lorem Ipsum has been the industrys standard dummy text ever since the when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book It has survived
+                                not only five centuries, but also the leap into.</div>
                         </div>
                         <div class="booking-info">
                             <div class="bk-title">Book Through Call</div>
@@ -207,8 +221,10 @@
                     <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div>
                         <div class="images parallax-scene-1">
-                            <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt=""></div>
-                            <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt=""></div>
+                            <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="">
+                            </div>
+                            <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,11 +250,15 @@
                     <div class="right-bg"><img src="images/background/bg-4.png" alt="" title=""></div>
                     <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="title-box">
-                            <span class="badge-icon"><img src="images/resource/badge-2.png" alt="" title=""></span>
+                            <span class="badge-icon"><img src="images/resource/badge-2.png" alt=""
+                                    title=""></span>
                             <div class="subtitle"><span>Special dish</span></div>
-                            <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                            <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
+                                    title=""></div>
                             <h2>Lobster Tortellini</h2>
-                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry
+                                lorem Ipsum has been the industrys standard dummy text ever since the when an unknown
+                                printer took a galley of type.</div>
                         </div>
                         <div class="price"><span class="old">$40.00</span> <span class="new">$20.00</span></div>
                         <div class="link-box">
@@ -285,25 +305,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-5.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Greek Salad</a></h5></div><div class="price"><span>$25.50</span></div></div>
-                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-5.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Greek Salad</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.50</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced
+                                                    cucumber onion, olives, and feta cheese.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-6.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5></div><div class="price"><span>$40.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-6.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a>
+                                                    </h5>
+                                                </div>
+                                                <div class="price"><span>$40.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-7.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Butternut Pumpkin</a></h5></div><div class="price"><span>$10.00</span></div></div>
-                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-7.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Butternut Pumpkin</a></h5>
+                                                </div>
+                                                <div class="price"><span>$10.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem
+                                                    Ipsum is simply dummy text of the priand.</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -313,25 +355,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-8.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5></div><div class="price"><span>$39.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-8.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Tokusen Wagyu <span
+                                                                class="s-info">NEW</span></a></h5>
+                                                </div>
+                                                <div class="price"><span>$39.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-9.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Olivas Rellenas</a></h5></div><div class="price"><span>$25.00</span></div></div>
-                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and  green bell pepper.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-9.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Olivas Rellenas</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion,
+                                                    crab salad stuffed red bell pepper and green bell pepper.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-10.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Opu Fish</a></h5></div><div class="price"><span>$49.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-10.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Opu Fish</a></h5>
+                                                </div>
+                                                <div class="price"><span>$49.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -346,25 +410,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-5.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Greek Salad</a></h5></div><div class="price"><span>$25.50</span></div></div>
-                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-5.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Greek Salad</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.50</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced
+                                                    cucumber onion, olives, and feta cheese.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-6.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5></div><div class="price"><span>$40.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-6.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a>
+                                                    </h5>
+                                                </div>
+                                                <div class="price"><span>$40.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-7.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Butternut Pumpkin</a></h5></div><div class="price"><span>$10.00</span></div></div>
-                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-7.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Butternut Pumpkin</a></h5>
+                                                </div>
+                                                <div class="price"><span>$10.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem
+                                                    Ipsum is simply dummy text of the priand.</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -374,25 +460,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-8.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5></div><div class="price"><span>$39.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-8.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Tokusen Wagyu <span
+                                                                class="s-info">NEW</span></a></h5>
+                                                </div>
+                                                <div class="price"><span>$39.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-9.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Olivas Rellenas</a></h5></div><div class="price"><span>$25.00</span></div></div>
-                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and  green bell pepper.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-9.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Olivas Rellenas</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion,
+                                                    crab salad stuffed red bell pepper and green bell pepper.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-10.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Opu Fish</a></h5></div><div class="price"><span>$49.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-10.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Opu Fish</a></h5>
+                                                </div>
+                                                <div class="price"><span>$49.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -407,25 +515,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-5.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Greek Salad</a></h5></div><div class="price"><span>$25.50</span></div></div>
-                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-5.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Greek Salad</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.50</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced
+                                                    cucumber onion, olives, and feta cheese.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-6.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5></div><div class="price"><span>$40.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-6.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a>
+                                                    </h5>
+                                                </div>
+                                                <div class="price"><span>$40.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-7.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Butternut Pumpkin</a></h5></div><div class="price"><span>$10.00</span></div></div>
-                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-7.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Butternut Pumpkin</a></h5>
+                                                </div>
+                                                <div class="price"><span>$10.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem
+                                                    Ipsum is simply dummy text of the priand.</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -435,25 +565,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-8.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5></div><div class="price"><span>$39.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-8.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Tokusen Wagyu <span
+                                                                class="s-info">NEW</span></a></h5>
+                                                </div>
+                                                <div class="price"><span>$39.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-9.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Olivas Rellenas</a></h5></div><div class="price"><span>$25.00</span></div></div>
-                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and  green bell pepper.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-9.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Olivas Rellenas</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion,
+                                                    crab salad stuffed red bell pepper and green bell pepper.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-10.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Opu Fish</a></h5></div><div class="price"><span>$49.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-10.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Opu Fish</a></h5>
+                                                </div>
+                                                <div class="price"><span>$49.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -468,25 +620,47 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-5.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Greek Salad</a></h5></div><div class="price"><span>$25.50</span></div></div>
-                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-5.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Greek Salad</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.50</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Tomatoes, green bell pepper, sliced
+                                                    cucumber onion, olives, and feta cheese.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-6.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a></h5></div><div class="price"><span>$40.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-6.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Lasagne <span class="s-info">SEASONAL</span></a>
+                                                    </h5>
+                                                </div>
+                                                <div class="price"><span>$40.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-7.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Butternut Pumpkin</a></h5></div><div class="price"><span>$10.00</span></div></div>
-                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-7.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Butternut Pumpkin</a></h5>
+                                                </div>
+                                                <div class="price"><span>$10.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Typesetting industry lorem Lorem
+                                                    Ipsum is simply dummy text of the priand.</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -496,25 +670,48 @@
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-8.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Tokusen Wagyu <span class="s-info">NEW</span></a></h5></div><div class="price"><span>$39.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-8.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Tokusen Wagyu <span
+                                                                class="s-info">NEW</span></a></h5>
+                                                </div>
+                                                <div class="price"><span>$39.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices.</a></div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-9.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Olivas Rellenas</a></h5></div><div class="price"><span>$25.00</span></div></div>
-                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and  green bell pepper. Cucumber</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-9.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Olivas Rellenas</a></h5>
+                                                </div>
+                                                <div class="price"><span>$25.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Avocados with crab meat, red onion,
+                                                    crab salad stuffed red bell pepper and green bell pepper. Cucumber</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <!--Block-->
                                     <div class="dish-block">
                                         <div class="inner-box">
-                                            <div class="dish-image"><a href="#"><img src="images/resource/menu-image-10.png" alt=""></a></div>
-                                            <div class="title clearfix"><div class="ttl clearfix"><h5><a href="#">Opu Fish</a></h5></div><div class="price"><span>$49.00</span></div></div>
-                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
+                                            <div class="dish-image"><a href="#"><img
+                                                        src="images/resource/menu-image-10.png" alt=""></a></div>
+                                            <div class="title clearfix">
+                                                <div class="ttl clearfix">
+                                                    <h5><a href="#">Opu Fish</a></h5>
+                                                </div>
+                                                <div class="price"><span>$49.00</span></div>
+                                            </div>
+                                            <div class="text desc"><a href="#">Vegetables, cheeses, ground meats,
+                                                    tomato sauce, seasonings and spices</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -525,7 +722,8 @@
             </div>
 
             <div class="open-timing">
-                <div class="hours">During winter daily from <span class="theme_color">7:00 pm</span> to <span class="theme_color">9:00 pm</span></div>
+                <div class="hours">During winter daily from <span class="theme_color">7:00 pm</span> to <span
+                        class="theme_color">9:00 pm</span></div>
                 <div class="link-box">
                     <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
                         <span class="btn-wrap">
@@ -544,14 +742,16 @@
             <div class="auto-container">
                 <div class="title-box centered">
                     <div class="subtitle"><span>special offer</span></div>
-                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title="">
+                    </div>
                     <h2>Best Specialties</h2>
                 </div>
                 <div class="dish-gallery-slider owl-theme owl-carousel">
                     <!--Slide Item-->
                     <div class="offer-block-two">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-1.html">Greek Salad</a></h4>
                             <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
                             <div class="price">$39.00</div>
@@ -561,7 +761,8 @@
                     <!--Slide Item-->
                     <div class="offer-block-two margin-top">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-2.html">Tokusen Wagyu</a></h4>
                             <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
                             <div class="price">$45.00</div>
@@ -571,9 +772,11 @@
                     <!--Slide Item-->
                     <div class="offer-block-two">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-3.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...</div>
+                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+                            </div>
                             <div class="price">$15.00</div>
                         </div>
                     </div>
@@ -581,7 +784,8 @@
                     <!--Slide Item-->
                     <div class="offer-block-two margin-top">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-4.html">Opu Fish</a></h4>
                             <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
                             <div class="price">$12.00</div>
@@ -591,7 +795,8 @@
                     <!--Slide Item-->
                     <div class="offer-block-two">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-11.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-1.html">Greek Salad</a></h4>
                             <div class="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
                             <div class="price">$39.00</div>
@@ -601,7 +806,8 @@
                     <!--Slide Item-->
                     <div class="offer-block-two margin-top">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-12.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-2.html">Tokusen Wagyu</a></h4>
                             <div class="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives...</div>
                             <div class="price">$45.00</div>
@@ -611,9 +817,11 @@
                     <!--Slide Item-->
                     <div class="offer-block-two">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-13.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-3.html">Butternut Pumpkin</a></h4>
-                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...</div>
+                            <div class="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+                            </div>
                             <div class="price">$15.00</div>
                         </div>
                     </div>
@@ -621,7 +829,8 @@
                     <!--Slide Item-->
                     <div class="offer-block-two margin-top">
                         <div class="inner-box">
-                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/menu-image-14.jpg"
+                                        alt=""></a></div>
                             <h4><a href="menu-list-4.html">Opu Fish</a></h4>
                             <div class="text desc">Vegetables, cheeses, ground meats, tomato sauce, seasonings...</div>
                             <div class="price">$12.00</div>
@@ -652,37 +861,43 @@
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
+                                the other night. The food was extraordinary.</div>
                         </div>
                     </div>
                 </div>
@@ -690,27 +905,27 @@
                 <div class="thumbs-carousel-box">
                     <div class="testi-thumbs owl-theme owl-carousel">
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-1.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
                             <div class="auth-title">Sam Jhonson</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-2.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
                             <div class="auth-title">Ian Botham</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-3.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
                             <div class="auth-title">Dan Bitson</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-1.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
                             <div class="auth-title">Sam Jhonson</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-2.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
                             <div class="auth-title">Ian Botham</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-3.jpg"  alt=""></div>
+                            <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
                             <div class="auth-title">Dan Bitson</div>
                         </div>
                     </div>
@@ -727,27 +942,56 @@
                     <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
                         <div class="inner">
                             <div class="title">
-                                <h2>Online Reservation</h2>
-                                <div class="request-info">Booking request <a href="#">+88-123-123456</a> or fill out the order form</div>
+                                <h2>Get In Touch</h2>
+                                <div class="request-info">Call at <a href="tel:+919110150863">+91 911-015-0863 </a> / <a href="tel:+917979068408"> +91 797-906-8408</a> or fill out
+                                    the form</div>
                             </div>
                             <div class="default-form reservation-form">
                                 <form method="post" action="index.html">
                                     <div class="row clearfix">
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Your Name" required>
+                                                <input type="text" name="full_name" value=""
+                                                    placeholder="Your Full Name" required>
                                             </div>
                                         </div>
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-inner">
-                                                <input type="text" name="fieldname" value="" placeholder="Phone Number" required>
+                                                <div class="input-group mb-2">
+
+                                                    {{-- <div class="container countryCodeDiv">
+                                                        <div class="row"> --}}
+
+                                                            {{-- <div class="col-md-4 col-sm-4 countryCodeCode">
+                                                                <select name="country_code" class="country_code">
+                                                                    <option></option>
+                                                                    <option selected>+912</option>
+                                                                    <option>+92</option>
+                                                                    <option>+1234</option>
+                                                                </select>
+                                                                {{-- <input type="text" name="c_number" value=""
+                                                                placeholder="Contact Number" required> --}}
+
+                                                            {{-- </div> --}}
+                                                            {{-- <div class="col-md-8 col-sm-8 countryCodeNo"> --}}
+
+                                                                <input type="text" name="c_number" value=""
+                                                                    placeholder="Contact Number" required>
+                                                            {{-- </div> --}}
+                                                        {{-- </div>
+                                                    </div> --}}
+
+
+                                                    {{-- <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username"> --}}
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-inner">
-                                                <span class="alt-icon far fa-user"></span>
-                                                <select class="l-icon">
-                                                    <option>1 Person</option>
+                                                <span class="alt-icon far fas fa-pencil-ruler"></span>
+                                                <select name="service" class="l-icon">
+                                                    <option>Select Service</option>
+                                                    <option>Architecture</option>
                                                     <option>2 Person</option>
                                                     <option>3 Person</option>
                                                     <option>4 Person</option>
@@ -758,14 +1002,17 @@
                                                 <span class="arrow-icon far fa-angle-down"></span>
                                             </div>
                                         </div>
-                                        <div class="form-group col-lg-4 col-md-6 col-sm-12">
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-inner">
-                                                <span class="alt-icon far fa-calendar"></span>
+
+                                                <input type="email" name="email" value="" placeholder="Email"
+                                                    required>
+                                                {{-- <span class="alt-icon far fa-calendar"></span>
                                                 <input class="l-icon datepicker" type="text" name="fieldname" value="" placeholder="DD-MM-YYYY" required readonly>
-                                                <span class="arrow-icon far fa-angle-down"></span>
+                                                <span class="arrow-icon far fa-angle-down"></span> --}}
                                             </div>
                                         </div>
-                                        <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                                        {{-- <div class="form-group col-lg-4 col-md-12 col-sm-12">
                                             <div class="field-inner">
                                                 <span class="alt-icon far fa-clock"></span>
                                                 <select class="l-icon">
@@ -787,7 +1034,7 @@
                                                 </select>
                                                 <span class="arrow-icon far fa-angle-down"></span>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                             <div class="field-inner">
                                                 <textarea name="fieldname" placeholder="Message" required></textarea>
@@ -798,8 +1045,8 @@
 
                                                 <button type="submit" class="theme-btn btn-style-one clearfix">
                                                     <span class="btn-wrap">
-                                                        <span class="text-one">book a table</span>
-                                                        <span class="text-two">book a table</span>
+                                                        <span class="text-one">book a Call</span>
+                                                        <span class="text-two">book a call</span>
                                                     </span>
                                                 </button>
 
@@ -817,14 +1064,14 @@
                             </div>
                             <div class="data">
                                 <div class="booking-info">
-                                    <div class="bk-title">Booking request</div>
-                                    <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+                                    <div class="bk-title">Direct Contact</div>
+                                    <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
                                 </div>
                                 <div class="separator"><span></span></div>
                                 <ul class="info">
                                     <li><strong>Location</strong><br>Restaurant St, Delicious City, London 9578, UK</li>
-                                    <li><strong>Lunch Time</strong><br>Monday to Sunday <br>11.00 am - 2.30pm</li>
-                                    <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 10.00pm</li>
+                                    <li><strong>Working Hours</strong><br>Monday to Sunday <br>09:00 AM - 7:00 PM</li>
+                                    {{-- <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 10.00pm</li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -887,7 +1134,7 @@
     </section>
 
     <!--Featured Links Section-->
-    <section class="featured-links">
+    {{-- <section class="featured-links">
         <div class="outer-container">
             <div class="row clearfix">
                 <!--Block-->
@@ -899,7 +1146,8 @@
                                     <div class="subtitle">best menu</div>
                                     <h3>Special Dishes</h3>
                                     <div class="text">Lorem Ipsum is simply dummy printing.</div>
-                                    <div class="link"><a href="menu-list-1.html" class="theme-btn"><span>view menu</span></a></div>
+                                    <div class="link"><a href="menu-list-1.html" class="theme-btn"><span>view
+                                                menu</span></a></div>
                                 </div>
                             </div>
                         </div>
@@ -923,7 +1171,8 @@
                                     <div class="subtitle">Latest</div>
                                     <h3>Upcoming Events</h3>
                                     <div class="text">Simply dummy printing and setting.</div>
-                                    <div class="link"><a href="menu-list-2.html" class="theme-btn"><span>join event</span></a></div>
+                                    <div class="link"><a href="menu-list-2.html" class="theme-btn"><span>join
+                                                event</span></a></div>
                                 </div>
                             </div>
                         </div>
@@ -939,7 +1188,8 @@
                                     <div class="subtitle">selected</div>
                                     <h3>Chef Choice</h3>
                                     <div class="text">Dummy printing lorem Ipsum simply.</div>
-                                    <div class="link"><a href="menu-list-3.html" class="theme-btn"><span>view menu</span></a></div>
+                                    <div class="link"><a href="menu-list-3.html" class="theme-btn"><span>view
+                                                menu</span></a></div>
                                 </div>
                             </div>
                         </div>
@@ -952,7 +1202,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Team Section-->
     <section class="team-section">
@@ -984,7 +1234,8 @@
                         </div>
                         <h3><a href="menu-list.html">Willium Joe</a></h3>
                         <div class="designation">Master chef</div>
-                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                            been the industrys.</div>
                     </div>
                 </div>
 
@@ -1007,7 +1258,8 @@
                         </div>
                         <h3><a href="menu-list.html">Steave Den</a></h3>
                         <div class="designation">Master chef</div>
-                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                            been the industrys.</div>
                     </div>
                 </div>
 
@@ -1030,7 +1282,8 @@
                         </div>
                         <h3><a href="menu-list.html">Lily Sopy</a></h3>
                         <div class="designation">Master chef</div>
-                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</div>
+                        <div class="text desc">Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                            been the industrys.</div>
                     </div>
                 </div>
 
@@ -1045,10 +1298,13 @@
             <div class="content-box">
                 <div class="title-box centered">
                     <div class="subtitle"><span>amazing experience</span></div>
-                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                    <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title="">
+                    </div>
                     <h2>Watch Our Video</h2>
                 </div>
-                <div class="play-btn"><a href="https://www.youtube.com/watch?v=ZETY_l3GVQg&autoplay=1" class="lightbox-image theme-btn"><span class="icon fal fa-play"><i class="ripple"></i></span></a></div>
+                <div class="play-btn"><a href="https://www.youtube.com/watch?v=ZETY_l3GVQg&autoplay=1"
+                        class="lightbox-image theme-btn"><span class="icon fal fa-play"><i
+                                class="ripple"></i></span></a></div>
                 <div class="separator"><span></span><span></span><span></span></div>
                 <h3>A modern restaurant with a menu that will make your mouth water.</h3>
                 <div class="auth-title">Willium Joe - Master chef</div>
@@ -1058,25 +1314,37 @@
                 <div class="row clearfix">
                     <div class="fact-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner clearfix">
-                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="150" data-speed="2000">0</span><i>+</i></div></div>
+                            <div class="fact-count">
+                                <div class="count-box"><span class="count-text" data-stop="150"
+                                        data-speed="2000">0</span><i>+</i></div>
+                            </div>
                             <div class="fact-title">daily <br>order</div>
                         </div>
                     </div>
                     <div class="fact-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner clearfix">
-                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="82" data-speed="1500">0</span><i>+</i></div></div>
+                            <div class="fact-count">
+                                <div class="count-box"><span class="count-text" data-stop="82"
+                                        data-speed="1500">0</span><i>+</i></div>
+                            </div>
                             <div class="fact-title">Special <br>Dishes</div>
                         </div>
                     </div>
                     <div class="fact-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner clearfix">
-                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="35" data-speed="1000">0</span><i>+</i></div></div>
+                            <div class="fact-count">
+                                <div class="count-box"><span class="count-text" data-stop="35"
+                                        data-speed="1000">0</span><i>+</i></div>
+                            </div>
                             <div class="fact-title">expert <br>chef</div>
                         </div>
                     </div>
                     <div class="fact-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner clearfix">
-                            <div class="fact-count"><div class="count-box"><span class="count-text" data-stop="10" data-speed="1000">0</span><i>+</i></div></div>
+                            <div class="fact-count">
+                                <div class="count-box"><span class="count-text" data-stop="10"
+                                        data-speed="1000">0</span><i>+</i></div>
+                            </div>
                             <div class="fact-title">awards <br>won</div>
                         </div>
                     </div>
@@ -1091,7 +1359,8 @@
         <div class="auto-container">
             <div class="title-box centered">
                 <div class="subtitle"><span>recent updates</span></div>
-                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
+                <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title="">
+                </div>
                 <h2>Upcoming Event</h2>
             </div>
             <div class="row justify-content-center clearfix">
@@ -1100,7 +1369,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="image-box">
                             <div class="date"><span>15/09/2022</span></div>
-                            <div class="image"><a href="#"><img src="images/resource/news-2.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-2.jpg"
+                                        alt=""></a></div>
                             <div class="over-content">
                                 <div class="cat">Food, flavour</div>
                                 <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
@@ -1114,7 +1384,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                         <div class="image-box">
                             <div class="date"><span>08/09/2022</span></div>
-                            <div class="image"><a href="#"><img src="images/resource/news-1.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-1.jpg"
+                                        alt=""></a></div>
                             <div class="over-content">
                                 <div class="cat">healthy food</div>
                                 <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
@@ -1128,7 +1399,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                         <div class="image-box">
                             <div class="date"><span>03/09/2022</span></div>
-                            <div class="image"><a href="#"><img src="images/resource/news-3.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/news-3.jpg"
+                                        alt=""></a></div>
                             <div class="over-content">
                                 <div class="cat">recipie</div>
                                 <h4><a href="menu-list.html">Flavour so good you’ll try to eat with your eyes.</a></h4>
@@ -1150,5 +1422,4 @@
 
         </div>
     </section>
-
 @endsection

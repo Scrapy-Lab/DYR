@@ -3045,6 +3045,7 @@
 
  .reserve-section .info-col .booking-info .bk-no a{
    color: var(--main-color);
+   font-size: 28px;
  }
 
  .reserve-section .info-col .booking-info .bk-no a:before{
@@ -7149,3 +7150,28 @@
      width: 100%;
    }
  }
+
+
+
+
+ @media (max-width: 767px) {
+    /* .countryCodeCol {
+      flex-basis: 100%;
+    } */
+
+
+ .countryCodeDiv{
+
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .countryCodeCode{
+
+    flex-basis: 35%;
+ }
+ .countryCodeNo{
+
+    flex-basis: 65%;
+ }
+  }
