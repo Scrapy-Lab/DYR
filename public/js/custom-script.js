@@ -1,3 +1,23 @@
+$(window).on("scroll", function() {
+    if ($(window).scrollTop() > 4568) {
+      $('#contactLink').addClass('current');
+      $('#home').removeClass('current');
+      $('#aboutUs').removeClass('current');
+    //   console.log($(window).scrollTop());
+    }else if($(window).scrollTop() < 4568  && $(window).scrollTop() > 883){
+
+        $('#aboutUs').addClass('current');
+        $('#home').removeClass('current');
+        $('#contactLink').removeClass('current');
+
+
+    }else {
+     $('#home').addClass('current');
+      $('#contactLink').removeClass('current');
+    }
+  });
+
+
 // Hide Header on on scroll down
 if($('.main-header').length){
 	// Hide Header on on scroll down
@@ -75,6 +95,23 @@ if($('.main-header').length){
 			}
 		}
 	}
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const contactLink = document.getElementById("contactLink");
+        const contactPartScrollTop = 4568; // Your desired scrolltop value
+
+        contactLink.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          // Smoothly scroll to the contact part
+          window.scrollTo({
+            top: contactPartScrollTop,
+            behavior: "smooth"
+          });
+        });
+      });
 	headerStyle();
 
 

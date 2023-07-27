@@ -33,9 +33,9 @@
                     <div class="nav-outer clearfix">
                         <nav class="main-menu">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="index.html">Home</a>
+                                <li class="current" id="home"><a href="index.html">Home</a>
                                 </li>
-                                <li class="dropdown has-mega-menu"><a href="menu-list.html">Menus</a>
+                                {{-- <li class="dropdown has-mega-menu"><a href="menu-list.html">Menus</a>
                                     <ul>
                                         <li>
                                             <div class="mega-menu">
@@ -64,10 +64,10 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="our-chef.html">Our chefs</a></li>
-                                <li class="dropdown"><a href="#">Pages</a>
+                                </li> --}}
+                                <li class="navBar" id="aboutUs"><a href="about.html">About Us</a></li>
+                                {{-- <li><a href="our-chef.html">Our chefs</a></li> --}}
+                                {{-- <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
                                         <li><a href="#">Dropdown Menu 1</a></li>
                                         <li><a href="#">Dropdown Menu 2</a></li>
@@ -81,8 +81,8 @@
                                         </li>
                                         <li><a href="#">Dropdown Lorem 5</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                </li> --}}
+                                <li id="contactLink"><a href="#contact" >Contact</a></li>
                             </ul>
                         </nav>
                         <!-- Main Menu End-->
@@ -93,8 +93,8 @@
                         <div class="link link-btn">
                             <a href="reservation-opentable.html" class="theme-btn btn-style-one clearfix">
                                 <span class="btn-wrap">
-                                    <span class="text-one">find a table</span>
-                                    <span class="text-two">find a table</span>
+                                    <span class="text-one">book a call</span>
+                                    <span class="text-two">book a call</span>
                                 </span>
                             </a>
                         </div>

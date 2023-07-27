@@ -44,9 +44,9 @@
                                             <div class="subtitle"><span>delightful experience</span></div>
                                             <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
                                                     title=""></div>
-                                            <h1><span>Flavors Inspired by <br>the Seasons</span></h1>
-                                            <div class="text">Come with family & feel the joy of mouthwatering food</div>
-                                            <div class="links-box wow fadeInUp" data-wow-delay="0ms"
+                                            <h1><span>Unveil the Restaurant Design of Your Dreams<br> </span></h1>
+                                            {{-- <div class="text"></div> --}}
+                                            {{-- <div class="links-box wow fadeInUp" data-wow-delay="0ms"
                                                 data-wow-duration="1500ms">
                                                 <div class="link">
                                                     <a href="menu-list-1.html" class="theme-btn btn-style-two clearfix">
@@ -56,7 +56,7 @@
                                                         </span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                     </div>
@@ -75,9 +75,9 @@
                                             <div class="subtitle"><span>amazing & delicious</span></div>
                                             <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
                                                     title=""></div>
-                                            <h1><span>Where every flavor <br>tells a story</span></h1>
-                                            <div class="text">Come with family & feel the joy of mouthwatering food</div>
-                                            <div class="links-box clearfix">
+                                            <h1><span>Where every design <br>tells a story</span></h1>
+                                            {{-- <div class="text">Come with family & feel the joy of mouthwatering food</div> --}}
+                                            {{-- <div class="links-box clearfix">
                                                 <div class="link">
                                                     <a href="menu-list-2.html" class="theme-btn btn-style-two clearfix">
                                                         <span class="btn-wrap">
@@ -86,7 +86,7 @@
                                                         </span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                     </div>
@@ -105,9 +105,9 @@
                                             <div class="subtitle"><span>Tradational & Hygine</span></div>
                                             <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
                                                     title=""></div>
-                                            <h1><span>For the love of <br>delicious food</span></h1>
-                                            <div class="text">Come with family & feel the joy of mouthwatering food</div>
-                                            <div class="links-box clearfix">
+                                            <h1><span>Experience Impeccable Design</span></h1>
+                                            <div class="text">Where Ambiance Meets Appetite</div>
+                                            {{-- <div class="links-box clearfix">
                                                 <div class="link">
                                                     <a href="menu-list-3.html" class="theme-btn btn-style-two clearfix">
                                                         <span class="btn-wrap">
@@ -116,7 +116,7 @@
                                                         </span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                     </div>
@@ -131,8 +131,8 @@
         </div>
 
         <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img
-                        src="images/resource/book-icon-1.png" alt="" title=""></span><span
-                    class="txt">book a table</span></a></div>
+                        class="callIcon" src="images/resource/book-icon-1.png" alt="" title=""></span><span
+                    class="txt">book a call</span></a></div>
     </section>
     <!--End Banner Section -->
 
@@ -142,7 +142,7 @@
         <div class="right-top-bg"><img src="images/background/bg-2.png" alt="" title=""></div>
         <div class="auto-container">
             <div class="title-box centered">
-                <div class="subtitle"><span>Flavors for royalty</span></div>
+                <div class="subtitle"><span>Design of royalty</span></div>
                 <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
                 <h2>From Concept to Reality !</h2>
                 <div class="text">Making Stylish Restaurants Come Alive. <br>Enhancing Restaurants with Style.</div>
@@ -184,6 +184,7 @@
 
     <!--Story Section-->
     <section class="story-section">
+        <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div>
         <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div>
         <div class="auto-container">
             <div class="row clearfix">
@@ -195,20 +196,21 @@
                             <div class="pattern-image"><img src="images/icons/separator.svg" alt=""
                                     title=""></div>
                             <h2>Every Design Tells a Story !</h2>
-                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry
-                                lorem Ipsum has been the industrys standard dummy text ever since the when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book It has survived
-                                not only five centuries, but also the leap into.</div>
+                            <div class="text">It reminds us that design is not
+                                merely about aesthetics but about creating meaningful and purposeful experiences that touch
+                                the lives of people. It highlights the importance of thoughtfulness, intentionality, and
+                                creativity in the design process to craft stories that resonate and leave a lasting impact.
+                            </div>
                         </div>
                         <div class="booking-info">
                             <div class="bk-title">Book Through Call</div>
-                            <div class="bk-no"><a href="tel:+80-400-123456">+80 (400) 123 4567</a></div>
+                            {{-- <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div> --}}
 
                             <div class="link-box">
-                                <a href="about.html" class="theme-btn btn-style-two clearfix">
+                                <a href="tel:+919110150863" class="theme-btn btn-style-two clearfix">
                                     <span class="btn-wrap">
-                                        <span class="text-one">Read More</span>
-                                        <span class="text-two">Read More</span>
+                                        <span class="text-one MobileNo">+91 911-015-0863</span>
+                                        <span class="text-two MobileNo">+91 911-015-0863</span>
                                     </span>
                                 </a>
                             </div>
@@ -219,12 +221,12 @@
                 <!--Col-->
                 <div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div>
+                        {{-- <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div> --}}
                         <div class="images parallax-scene-1">
                             <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="">
                             </div>
-                            <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
-                            </div>
+                            {{-- <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -234,8 +236,8 @@
     </section>
 
     <!--Special Dish Section-->
-    <section class="special-dish">
-        <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div>
+   {{-- <section class="special-dish">
+
         <div class="outer-container">
             <div class="row clearfix">
                 <!--Col-->
@@ -274,7 +276,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Menu Section-->
     <section class="menu-section">
@@ -282,7 +284,7 @@
         <div class="right-bg"><img src="images/background/bg-6.png" alt="" title=""></div>
         <div class="auto-container">
             <div class="title-box centered">
-                <div class="subtitle"><span>Special selection</span></div>
+                {{-- <div class="subtitle"><span>Special selection</span></div> --}}
                 <div class="pattern-image"><img src="images/icons/separator.svg" alt="" title=""></div>
                 <h2>Categories</h2>
             </div>
@@ -291,12 +293,13 @@
                 <div class="buttons">
                     <ul class="tab-buttons clearfix">
                         <li class="tab-btn active-btn" data-tab="#tab-1"><span>Fine Dining</span></li>
-                        <li class="tab-btn" data-tab="#tab-2"><span>Casual Dining</span></li>
-                        <li class="tab-btn" data-tab="#tab-3"><span>Ethnic Cuisine</span></li>
-                        <li class="tab-btn" data-tab="#tab-4"><span>Cafés and Bistros</span></li>
+                        <li class="tab-btn active-btn" data-tab="#tab-2"><span>Casual Dining</span></li>
+                        <li class="tab-btn active-btn" data-tab="#tab-3"><span>Ethnic Cuisine</span></li>
+                        <li class="tab-btn active-btn" data-tab="#tab-4"><span>Cafés and Bistros</span></li>
+                        <li class="tab-btn active-btn" data-tab="#tab-4"><span>Clubs</span></li>
                     </ul>
                 </div>
-                <div class="tabs-content">
+                {{-- <div class="tabs-content">
                     <!--Tab-->
                     <div class="tab active-tab" id="tab-1">
                         <div class="row clearfix">
@@ -718,10 +721,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
 
-            <div class="open-timing">
+            {{-- <div class="open-timing">
                 <div class="hours">During winter daily from <span class="theme_color">7:00 pm</span> to <span
                         class="theme_color">9:00 pm</span></div>
                 <div class="link-box">
@@ -732,12 +735,12 @@
                         </span>
                     </a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
     <!--Special Offer Section-->
-    <section class="special-offer">
+    {{-- <section class="special-offer">
         <div class="outer-container">
             <div class="auto-container">
                 <div class="title-box centered">
@@ -850,10 +853,10 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Testimonials Section-->
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="contact">
         <div class="image-layer" style="background-image: url(images/background/image-2.jpg);"></div>
         <div class="auto-container">
             <div class="carousel-box">
@@ -936,150 +939,7 @@
 
     <!--Reservation Section-->
     <section class="reserve-section">
-        <div class="auto-container">
-            <div class="outer-box">
-                <div class="row clearfix">
-                    <div class="reserv-col col-lg-8 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <div class="title">
-                                <h2>Get In Touch</h2>
-                                <div class="request-info">Call at <a href="tel:+919110150863">+91 911-015-0863 </a> / <a href="tel:+917979068408"> +91 797-906-8408</a> or fill out
-                                    the form</div>
-                            </div>
-                            <div class="default-form reservation-form">
-                                <form method="post" action="index.html">
-                                    <div class="row clearfix">
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-inner">
-                                                <input type="text" name="full_name" value=""
-                                                    placeholder="Your Full Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-inner">
-                                                <div class="input-group mb-2">
-
-                                                    {{-- <div class="container countryCodeDiv">
-                                                        <div class="row"> --}}
-
-                                                            {{-- <div class="col-md-4 col-sm-4 countryCodeCode">
-                                                                <select name="country_code" class="country_code">
-                                                                    <option></option>
-                                                                    <option selected>+912</option>
-                                                                    <option>+92</option>
-                                                                    <option>+1234</option>
-                                                                </select>
-                                                                {{-- <input type="text" name="c_number" value=""
-                                                                placeholder="Contact Number" required> --}}
-
-                                                            {{-- </div> --}}
-                                                            {{-- <div class="col-md-8 col-sm-8 countryCodeNo"> --}}
-
-                                                                <input type="text" name="c_number" value=""
-                                                                    placeholder="Contact Number" required>
-                                                            {{-- </div> --}}
-                                                        {{-- </div>
-                                                    </div> --}}
-
-
-                                                    {{-- <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username"> --}}
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-inner">
-                                                <span class="alt-icon far fas fa-pencil-ruler"></span>
-                                                <select name="service" class="l-icon">
-                                                    <option>Select Service</option>
-                                                    <option>Architecture</option>
-                                                    <option>2 Person</option>
-                                                    <option>3 Person</option>
-                                                    <option>4 Person</option>
-                                                    <option>5 Person</option>
-                                                    <option>6 Person</option>
-                                                    <option>7 Person</option>
-                                                </select>
-                                                <span class="arrow-icon far fa-angle-down"></span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-inner">
-
-                                                <input type="email" name="email" value="" placeholder="Email"
-                                                    required>
-                                                {{-- <span class="alt-icon far fa-calendar"></span>
-                                                <input class="l-icon datepicker" type="text" name="fieldname" value="" placeholder="DD-MM-YYYY" required readonly>
-                                                <span class="arrow-icon far fa-angle-down"></span> --}}
-                                            </div>
-                                        </div>
-                                        {{-- <div class="form-group col-lg-4 col-md-12 col-sm-12">
-                                            <div class="field-inner">
-                                                <span class="alt-icon far fa-clock"></span>
-                                                <select class="l-icon">
-                                                    <option>08 : 00 am</option>
-                                                    <option>09 : 00 am</option>
-                                                    <option>10 : 00 am</option>
-                                                    <option>11 : 00 am</option>
-                                                    <option>12 : 00 pm</option>
-                                                    <option>01 : 00 pm</option>
-                                                    <option>02 : 00 pm</option>
-                                                    <option>03 : 00 pm</option>
-                                                    <option>04 : 00 pm</option>
-                                                    <option>05 : 00 pm</option>
-                                                    <option>06 : 00 pm</option>
-                                                    <option>07 : 00 pm</option>
-                                                    <option>08 : 00 pm</option>
-                                                    <option>09 : 00 pm</option>
-                                                    <option>10 : 00 pm</option>
-                                                </select>
-                                                <span class="arrow-icon far fa-angle-down"></span>
-                                            </div>
-                                        </div> --}}
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <div class="field-inner">
-                                                <textarea name="fieldname" placeholder="Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <div class="field-inner">
-
-                                                <button type="submit" class="theme-btn btn-style-one clearfix">
-                                                    <span class="btn-wrap">
-                                                        <span class="text-one">book a Call</span>
-                                                        <span class="text-two">book a call</span>
-                                                    </span>
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-col col-lg-4 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <div class="title">
-                                <h2>Contact Us</h2>
-                            </div>
-                            <div class="data">
-                                <div class="booking-info">
-                                    <div class="bk-title">Direct Contact</div>
-                                    <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
-                                </div>
-                                <div class="separator"><span></span></div>
-                                <ul class="info">
-                                    <li><strong>Location</strong><br>Restaurant St, Delicious City, London 9578, UK</li>
-                                    <li><strong>Working Hours</strong><br>Monday to Sunday <br>09:00 AM - 7:00 PM</li>
-                                    {{-- <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 10.00pm</li> --}}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+        <livewire:contact-us/>
     </section>
 
     <!--Why Us Section-->
@@ -1205,7 +1065,7 @@
     </section> --}}
 
     <!--Team Section-->
-    <section class="team-section">
+    {{-- <section class="team-section">
         <div class="left-bg"><img src="images/background/bg-21.png" alt="" title=""></div>
         <div class="right-bg"><img src="images/background/bg-9.png" alt="" title=""></div>
         <div class="auto-container">
@@ -1289,7 +1149,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Intro Section-->
     <section class="intro-section">
@@ -1303,8 +1163,8 @@
                     <h2>Watch Our Video</h2>
                 </div>
                 <div class="play-btn"><a href="https://www.youtube.com/watch?v=ZETY_l3GVQg&autoplay=1"
-                        class="lightbox-image theme-btn"><span class="icon fal fa-play"><i
-                                class="ripple"></i></span></a></div>
+                        class="lightbox-image theme-btn"><span class="icon fal fa-play"><i class="ripple"></i></span></a>
+                </div>
                 <div class="separator"><span></span><span></span><span></span></div>
                 <h3>A modern restaurant with a menu that will make your mouth water.</h3>
                 <div class="auth-title">Willium Joe - Master chef</div>
@@ -1355,7 +1215,7 @@
     </section>
 
     <!--Recnt Updates Section-->
-    <section class="news-section">
+    {{-- <section class="news-section">
         <div class="auto-container">
             <div class="title-box centered">
                 <div class="subtitle"><span>recent updates</span></div>
@@ -1421,5 +1281,5 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 @endsection
