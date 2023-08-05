@@ -939,7 +939,10 @@
 
     <!--Reservation Section-->
     <section class="reserve-section">
-        <livewire:contact-us/>
+        {{-- <livewire:contact-us/> --}}
+
+        @livewire('contact-us')
+
     </section>
 
     <!--Why Us Section-->
