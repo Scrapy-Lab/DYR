@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->text('msg');
             $table->text('ip_address')->nullable();
-            $table->text('ip_location')->nullable();
+            // $table->text('ip_location')->nullable();
             $table->timestamps();
         });
     }

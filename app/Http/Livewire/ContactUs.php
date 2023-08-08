@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Models\Contact;
+use App\Models\UserVisit;
 use Livewire\Component;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
@@ -41,17 +42,25 @@ class ContactUs extends Component
         ]);
 
         $validatedData['ip_address'] = $userIpAddress; // Add the IP address to the validated data
-
+        $geoData = [];
         // for LOCAL TESTING
         // $userIpAddress = "137.96.143.251";
 
 
+        $contact = Contact::create($validatedData);
+
+
+
         // Get the approximate user location using an IP geolocation service
         $geoData = Http::get('http://ip-api.com/json/' . $userIpAddress)->json();
-        if ($geoData && $geoData['status'] === 'success') {
-            $validatedData['ip_location'] = json_encode($geoData);
-        }
 
+        $geoData['contact_id'] = $contact->id;
+        $geoData['mode'] = 1;
+
+        // if ($geoData && $geoData['status'] === 'success') {
+        //     // $validatedData['ip_location'] = json_encode($geoData);
+        // }
+        UserVisit::create($geoData);
 
 
 
@@ -73,7 +82,6 @@ class ContactUs extends Component
         //     "query": "137.96.143.251"
         //     }
 
-        Contact::create($validatedData);
 
         session()->flash('message', 'Thank You! Our representative will contact you soon!');
     }

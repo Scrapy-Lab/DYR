@@ -10,7 +10,7 @@
                             the form</div>
                     </div>
                     <div class="default-form reservation-form">
-                        <form method="post" wire:submit.prevent="save">
+                        <form  wire:submit.prevent="save">
                             <div class="row clearfix">
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="field-inner">
@@ -67,8 +67,8 @@
                                             <option value="2">6 Person</option>
                                             <option value="2">7 Person</option>
                                         </select>
-                                        @if ($errors->has('service'))
-                                            <span style="color: red">{{ $errors->first('service') }}</span>
+                                        @if ($errors->has('service_id'))
+                                            <span style="color: red">{{ $errors->first('service_id') }}</span>
                                         @endif
                                         <span class="arrow-icon far fa-angle-down"></span>
                                     </div>
