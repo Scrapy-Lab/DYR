@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5RXND6JPC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-T5RXND6JPC');
+    </script>
     <meta charset="utf-8">
     <title>DYR | Design Your Restaurant</title>
     <!-- Stylesheets -->
@@ -16,6 +28,7 @@
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     @livewireStyles()
     <script src="js/jquery.js"></script>
+
 </head>
 
 <body>
@@ -65,7 +78,7 @@
 
         @include('layouts.footer')
     </div>
-        <!--End pagewrapper-->
+    <!--End pagewrapper-->
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
