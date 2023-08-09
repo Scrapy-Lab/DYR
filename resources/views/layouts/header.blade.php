@@ -5,14 +5,14 @@
             <div class="inner clearfix">
                 <div class="top-left clearfix">
                     <ul class="top-info clearfix">
-                        <li><i class="icon far fa-map-marker-alt"></i> Restaurant St, Delicious City, London 9578, UK</li>
-                        <li><i class="icon far fa-clock"></i> Daily : 8.00 am to 10.00 pm</li>
+                        <li><i class="icon far fa-map-marker-alt"></i> Chhatarpur, Delhi, India</li>
+                        <li><i class="icon far fa-clock"></i> Daily : 09.00 AM to 09.00 PM</li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
                     <ul class="top-info clearfix">
-                        <li><a href="tel:+11234567890"><i class="icon far fa-phone"></i> +1 123 456 7890</a></li>
-                        <li><a href="mailto:booking@restaurant.com"><i class="icon far fa-envelope"></i> booking@restaurant.com</a></li>
+                        <li><a href="tel:+919110150863"><i class="icon far fa-phone"></i>  +91 911-015-0863</a></li>
+                        <li><a href="mailto:booking@designyourrestaurant.com"><i class="icon far fa-envelope"></i> booking@designyourrestaurant.com</a></li>
                     </ul>
                 </div>
             </div>
