@@ -130,9 +130,9 @@
                                     </div>
                                     <div class="mt-2">
                                         @if (session()->has('message'))
-                                        <div class="alert alert-success">
-                                            {{ session('message') }}
-                                        </div>
+                                            <div class="alert alert-success">
+                                                {{ session('message') }}
+                                            </div>
                                         @endif
                                     </div>
                                 </div>
@@ -163,5 +163,4 @@
         </div>
 
     </div>
-
 </div>

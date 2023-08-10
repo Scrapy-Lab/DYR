@@ -40,8 +40,8 @@ class ContactResource extends Resource
                     ->maxLength(65535),
                 Forms\Components\Textarea::make('ip_address')
                     ->maxLength(65535),
-                Forms\Components\Textarea::make('ip_location')
-                    ->maxLength(65535),
+                // Forms\Components\Textarea::make('ip_location')
+                //     ->maxLength(65535),
             ]);
     }
 
@@ -56,7 +56,7 @@ class ContactResource extends Resource
                 Tables\Columns\TextColumn::make('email'),
                 Tables\Columns\TextColumn::make('msg'),
                 Tables\Columns\TextColumn::make('ip_address'),
-                Tables\Columns\TextColumn::make('ip_location'),
+                // Tables\Columns\TextColumn::make('ip_location'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime(),
                 Tables\Columns\TextColumn::make('updated_at')
