@@ -47,7 +47,7 @@
                 {{-- <div class="preloader-close">x</div> --}}
                 <div id="handle-preloader" class="handle-preloader">
                     <div class="animation-preloader">
-                        <img class="loaderLogo" src="images/logo.png" alt="" title="Delici - Restaurants HTML Template">
+                        <img class="loaderLogo" src="{{asset('images/logo.png')}}" alt="" title="Delici - Restaurants HTML Template">
                         <div class="spinner"></div>
                         {{-- <div class="txt-loading">
                             <span data-text-preloader="D" class="letters-loading">
