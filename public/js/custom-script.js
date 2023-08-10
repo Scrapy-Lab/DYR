@@ -515,7 +515,7 @@ if($('.main-header').length){
 
    handlePreloader();
 	$(window).on('load', function() {
-		console.log("adsd");
+		// console.log("adsd");
 		if($('body.page-loaded').length){
 			$('body').addClass('page-done');
 		}

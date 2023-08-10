@@ -25,7 +25,7 @@
             <div class="main-box clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                     <div class="logo"><a href="index.html" title="Delici - Restaurants HTML Template"><img src="images/logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+                     <div class="logo"><a href="index.html" title="DYR"><img src="images/logo.png" alt="DYR" title="DYR"></a></div>
                 </div>
 
                 <div class="nav-box clearfix">
@@ -91,7 +91,7 @@
 
                     <div class="links-box clearfix">
                         <div class="link link-btn">
-                            <a href="reservation-opentable.html" class="theme-btn btn-style-one clearfix">
+                            <a href="#contact" class="theme-btn btn-style-one clearfix">
                                 <span class="btn-wrap">
                                     <span class="text-one">book a call</span>
                                     <span class="text-two">book a call</span>
@@ -136,7 +136,7 @@
     <!-- Hidden Bar Wrapper -->
     <div class="inner-box">
         <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+        <div class="logo-box"><a href="index.html" title="DYR"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
 
         <!-- .Side-menu -->
         <div class="side-menu">

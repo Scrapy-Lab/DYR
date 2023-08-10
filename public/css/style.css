@@ -31,6 +31,13 @@
 
  ***/
 
+.loaderLogo{
+
+    position: absolute;
+    left: 30px;
+    top: 31px;
+}
+
 .main-header {
     position: fixed;
     left: 0;

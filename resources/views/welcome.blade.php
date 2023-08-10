@@ -130,7 +130,7 @@
             </div>
         </div>
 
-        <div class="book-btn"><a href="reservation-opentable.html" class="theme-btn"><span class="icon"><img
+        <div class="book-btn"><a href="#contact" class="theme-btn"><span class="icon"><img
                         class="callIcon" src="images/resource/book-icon-1.png" alt="" title=""></span><span
                     class="txt">book a call</span></a></div>
     </section>
