@@ -13,14 +13,14 @@
                                             title="Delici - Restaurants HTML Template"></a></div>
                                 <div class="info">
                                     <ul>
-                                        <li>Restaurant St, Delicious City, London 9578, UK</li>
-                                        <li><a href="mailto:booking@domainname.com">booking@domainname.com</a></li>
-                                        <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
+                                        <li>Chhatarpur, Delhi, India</li>
+                                        <li><a href="mailto:booking@domainname.com">booking@designyourrestaurant.com</a></li>
+                                        <li><a href="tel:+919110150863">Booking Request : +91 911-015-0863 </a></li>
                                         <li>Open : 09:00 am - 01:00 pm</li>
                                     </ul>
                                 </div>
                                 <div class="separator"><span></span><span></span><span></span></div>
-                                <div class="newsletter">
+                                {{-- <div class="newsletter">
                                     <h3>Get News & Offers</h3>
                                     <div class="text">Subscribe us & Get <span>25% Off.</span></div>
                                     <div class="newsletter-form">
@@ -38,7 +38,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -46,11 +46,10 @@
                     <div class="footer-col links-col col-lg-3 col-md-6 col-sm-12">
                         <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="links">
-                                <li><a href="home.html">Home</a></li>
-                                <li><a href="menu-list-1.html">Menus</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="our-chef.html">Our chefs</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li><a >Home</a></li>
+                                <li><a >About us</a></li>
+                                <li><a >Category</a></li>
+                                <li><a >Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,9 +59,9 @@
                             <ul class="links">
                                 <li><a href="#">facebook</a></li>
                                 <li><a href="#">instagram</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Youtube</a></li>
-                                <li><a href="#">Google map</a></li>
+                                {{-- <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Youtube</a></li> --}}
+                                <li><a href="#">Google</a></li>
                             </ul>
                         </div>
                     </div>
@@ -71,8 +70,13 @@
         </div>
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright">&copy; 2022 Restaurt. All Rights Reserved | Crafted by <a
-                        href="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</a></div>
+                <div class="copyright">&copy; DYR! Made with love by DYR Teams.
+                    {{--
+                        |
+                     Crafted by
+                         <a
+                    href="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</a> --}}
+                    </div>
             </div>
         </div>
     </footer>

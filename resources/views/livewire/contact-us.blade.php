@@ -59,13 +59,10 @@
                                         <span class="alt-icon far fas fa-pencil-ruler"></span>
                                         <select name="service_id" class="l-icon" wire:model.lazy="service_id">
                                             <option value="">Select Service</option>
-                                            <option value="2">Architecture</option>
-                                            <option value="2">2 Person</option>
-                                            <option value="2">3 Person</option>
-                                            <option value="2">4 Person</option>
-                                            <option value="2">5 Person</option>
-                                            <option value="2">6 Person</option>
-                                            <option value="2">7 Person</option>
+                                            <option value="1">Concept Visualization</option>
+                                            <option value="2">Civil & Furniture Layout</option>
+                                            <option value="3">Kitchen & Bar Designing</option>
+                                            <option value="4">Complete 3D Planning</option>
                                         </select>
                                         @if ($errors->has('service_id'))
                                             <span style="color: red">{{ $errors->first('service_id') }}</span>
@@ -153,8 +150,8 @@
                         </div>
                         <div class="separator"><span></span></div>
                         <ul class="info">
-                            <li><strong>Location</strong><br>Restaurant St, Delicious City, London 9578, UK</li>
-                            <li><strong>Working Hours</strong><br>Monday to Sunday <br>09:00 AM - 7:00 PM</li>
+                            <li><strong>Location</strong><br>Chhatarpur, Delhi <br> India</li>
+                            <li><strong>Working Hours</strong><br>Monday to Sunday <br>09:00 AM - 9:00 PM</li>
                             {{-- <li><strong>Dinner Time</strong><br>Monday to Sunday <br>05.00 pm - 10.00pm</li> --}}
                         </ul>
                     </div>

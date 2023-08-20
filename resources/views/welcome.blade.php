@@ -7,21 +7,22 @@
     <section class="info-bar">
         <div class="inner-box">
             <div class="cross-icon"><span class="far fa-close"></span></div>
-            <div class="logo-box"><a href="index.html" title="Delici - Restaurants HTML Template"><img
-                        src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a>
+            <div class="logo-box">
+                <a href="index.html" title="Delici - Restaurants HTML Template"><img
+                        src="{{asset('images/logo.png')}}" alt="" title="Delici - Restaurants HTML Template"></a>
             </div>
-            <div class="image-box"><img src="images/resource/sidebar-image.jpg" alt="" title=""></div>
+            <div class="image-box"><img src="{{asset('images/resource/sidebar-logo.jpg')}}" alt="" title=""></div>
 
             <h2>Visit Us</h2>
             <ul class="info">
-                <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-                <li>Open: 9.30 am - 2.30pm</li>
-                <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
+                <li> Chhatarpur, Delhi, India</li>
+                <li>Open: 9:00 AM - 9:00 PM</li>
+                <li><a href="mailto:booking@designyourrestaurant.com">booking@designyourrestaurant.com</a></li>
             </ul>
             <div class="separator"><span></span></div>
             <div class="booking-info">
                 <div class="bk-title">Booking request</div>
-                <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+                <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
             </div>
         </div>
     </section>
@@ -130,16 +131,16 @@
             </div>
         </div>
 
-        <div class="book-btn"><a href="#contact" class="theme-btn"><span class="icon"><img
-                        class="callIcon" src="images/resource/book-icon-1.png" alt="" title=""></span><span
-                    class="txt">book a call</span></a></div>
+        {{-- <div class="book-btn "><a href="#contact" class="theme-btn"><span class="icon"><img class="callIcon"
+                        src="images/resource/book-icon-1.png" alt="" title=""></span><span class="txt">book
+                    a call</span></a></div> --}}
     </section>
     <!--End Banner Section -->
 
     <!--We Offer Section-->
     <section class="we-offer-section">
-        <div class="left-bot-bg"><img src="images/background/bg-1.png" alt="" title=""></div>
-        <div class="right-top-bg"><img src="images/background/bg-2.png" alt="" title=""></div>
+        {{-- <div class="left-bot-bg"><img src="images/background/bg-1.png" alt="" title=""></div> --}}
+        {{-- <div class="right-top-bg"><img src="images/background/bg-2.png" alt="" title=""></div> --}}
         <div class="auto-container">
             <div class="title-box centered">
                 <div class="subtitle"><span>Design of royalty</span></div>
@@ -153,8 +154,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div class="image"><a href="menu-list-1.html"><img src="images/resource/offer-image-1.jpg"
                                     alt=""></a></div>
-                        <h3><a href="menu-list-1.html">Breakfast</a></h3>
-                        <div class="more-link"><a href="menu-list-1.html">view menu</a></div>
+                        {{-- <h3><a href="menu-list-1.html">Breakfast</a></h3>
+                        <div class="more-link"><a href="menu-list-1.html">view menu</a></div> --}}
                     </div>
                 </div>
 
@@ -163,8 +164,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                         <div class="image"><a href="menu-list-2.html"><img src="images/resource/offer-image-2.jpg"
                                     alt=""></a></div>
-                        <h3><a href="menu-list-2.html">Appetizers</a></h3>
-                        <div class="more-link"><a href="menu-list-2.html">view menu</a></div>
+                        {{-- <h3><a href="menu-list-2.html">Appetizers</a></h3>
+                        <div class="more-link"><a href="menu-list-2.html">view menu</a></div> --}}
                     </div>
                 </div>
 
@@ -173,8 +174,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                         <div class="image"><a href="menu-list-3.html"><img src="images/resource/offer-image-3.jpg"
                                     alt=""></a></div>
-                        <h3><a href="menu-list-3.html">Drinks</a></h3>
-                        <div class="more-link"><a href="menu-list-3.html">view menu</a></div>
+                        {{-- <h3><a href="menu-list-3.html">Drinks</a></h3>
+                        <div class="more-link"><a href="menu-list-3.html">view menu</a></div> --}}
                     </div>
                 </div>
 
@@ -183,9 +184,9 @@
     </section>
 
     <!--Story Section-->
-    <section class="story-section">
-        <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div>
-        <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div>
+    <section class="story-section" id="about_us">
+        {{-- <div class="bottom-image"><img src="images/resource/image-3.png" alt="" title=""></div> --}}
+        {{-- <div class="left-bg"><img src="images/background/bg-3.png" alt="" title=""></div> --}}
         <div class="auto-container">
             <div class="row clearfix">
                 <!--Col-->
@@ -203,28 +204,137 @@
                             </div>
                         </div>
                         <div class="booking-info">
-                            <div class="bk-title">Book Through Call</div>
+                            {{-- <div class="bk-title">Book Through Call</div> --}}
                             {{-- <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div> --}}
 
                             <div class="link-box">
-                                <a href="tel:+919110150863" class="theme-btn btn-style-two clearfix">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="theme-btn btn-style-one clearfix" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    <span class="btn-wrap">
+                                        <span class="text-one ">About Us</span>
+                                        <span class="text-two ">About Us</span>
+                                    </span>
+                                </button>
+                                {{-- <a href="tel:+919110150863" class="theme-btn btn-style-two clearfix">
                                     <span class="btn-wrap">
                                         <span class="text-one MobileNo">+91 911-015-0863</span>
                                         <span class="text-two MobileNo">+91 911-015-0863</span>
                                     </span>
-                                </a>
+                                </a> --}}
                             </div>
 
                         </div>
                     </div>
                 </div>
+
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">About Us (DYR)</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span class="modal_exit" aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Welcome to <b style="font-size: 20px">"Design Your Restaurant"</b> - A culinary sanctuary that merges exquisite
+                                dining with
+                                captivating aesthetics, creating an unforgettable gastronomic experience. Design Your
+                                Restaurant is a haven for discerning food enthusiasts seeking both
+                                indulgence and beauty.<br><br>
+
+                                <b style="font-size: 20px">Exterior:</b>
+                                Upon approach, you'll be greeted by an enchanting façade that seamlessly blends modern
+                                architecture with natural elements. The exterior boasts a minimalist color palette,
+                                featuring earthy tones and warm lighting that casts a gentle glow onto the entrance. A lush
+                                vertical garden adorns one side, adding a touch of greenery to the urban landscape. The
+                                restaurant's name is elegantly etched in gold script above the entrance, inviting you to
+                                step inside.<br><br>
+
+                                <b style="font-size: 20px">Interior:</b>
+                                As you enter, the interior reveals an exquisite harmony of contemporary design and classic
+                                sophistication. The foyer features a striking art installation, an ever-changing display of
+                                local and international artwork, setting the tone for an aesthetic journey that parallels
+                                the culinary experience.
+
+                                The main dining area is a symphony of refined opulence. Dark oak floors contrast with ivory
+                                walls, while plush velvet seating in jewel tones provides comfort and elegance. Illuminated
+                                suspended sculptures dangle above each table, casting a soft, diffused light that
+                                complements the table settings. Ambient instrumental music plays softly, creating an
+                                ambiance that's perfect for intimate conversations or celebratory gatherings.<br><br>
+
+                                <b style="font-size: 20px">Private Dining:</b>
+                                Design Your Restaurant offers private dining rooms, each uniquely designed to reflect a different
+                                culinary destination. From a Parisian-inspired chamber adorned with vintage wine barrels to
+                                a futuristic Tokyo-themed room with sleek lines and minimalist décor, these private spaces
+                                offer a sense of exclusivity while maintaining a cohesive connection to the restaurant's
+                                overall aesthetic.<br><br>
+
+                                <b style="font-size: 20px">Bar and Lounge:</b>
+                                Adjacent to the main dining area, the bar and lounge area exudes modern flair. A
+                                marble-topped bar with backlit shelves showcasing a curated selection of spirits takes
+                                center stage. Plush barstools and low lounge seating encourage guests to savor handcrafted
+                                cocktails and conversation in a relaxed setting.<br><br>
+
+                                <b style="font-size: 20px">Open Kitchen:</b>
+                                The open kitchen is a theater of culinary creativity, allowing diners to witness the
+                                artistry that goes into crafting each dish. Chefs in crisp white attire move with precision
+                                and passion, transforming fresh ingredients into edible masterpieces. A counter with high
+                                stools provides a front-row seat to this gastronomic spectacle.<br><br>
+
+                                <b style="font-size: 20px">Terrace Garden:</b>
+                                For those who prefer to dine al fresco, the terrace garden offers a tranquil oasis amidst
+                                the city's bustle. Overhead trellises adorned with fairy lights create an enchanting canopy,
+                                while potted plants and comfortable seating complete the outdoor experience.<br><br>
+
+                                Overall, Design Your Restaurant is a harmonious blend of aesthetics and gastronomy, where each
+                                element is thoughtfully curated to create an immersive dining encounter that delights the
+                                senses and nourishes the soul.
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
                 <!--Col-->
                 <div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                        {{-- <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div> --}}
-                        <div class="images parallax-scene-1">
-                            <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/resource/slider1.jpg" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/resource/slider2.jpg" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/resource/slider3.jpg" class="d-block w-100" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/resource/image-1.jpg" class="d-block w-100" alt="">
+                              </div>
                             </div>
+                           <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </button>
+                          </div>
+
+
+                        {{-- <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div> --}}
+                        {{-- <div class="images parallax-scene-1">
+                            <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="">
+                            </div> --}}
                             {{-- <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
                             </div> --}}
                         </div>
@@ -236,7 +346,7 @@
     </section>
 
     <!--Special Dish Section-->
-   {{-- <section class="special-dish">
+    {{-- <section class="special-dish">
 
         <div class="outer-container">
             <div class="row clearfix">
@@ -277,11 +387,16 @@
             </div>
         </div>
     </section> --}}
+    {{--
+    BEst Design
+    RIght pricing
+    Acrtictuical consultancy
+    End to end supprtt --}}
 
     <!--Menu Section-->
-    <section class="menu-section">
-        <div class="left-bg"><img src="images/background/bg-5.png" alt="" title=""></div>
-        <div class="right-bg"><img src="images/background/bg-6.png" alt="" title=""></div>
+    <section class="menu-section" id="category_section">
+        {{-- <div class="left-bg"><img src="images/background/bg-5.png" alt="" title=""></div>
+        <div class="right-bg"><img src="images/background/bg-6.png" alt="" title=""></div> --}}
         <div class="auto-container">
             <div class="title-box centered">
                 {{-- <div class="subtitle"><span>Special selection</span></div> --}}
@@ -294,7 +409,7 @@
                     <ul class="tab-buttons clearfix">
                         <li class="tab-btn active-btn" data-tab="#tab-1"><span>Fine Dining</span></li>
                         <li class="tab-btn active-btn" data-tab="#tab-2"><span>Casual Dining</span></li>
-                        <li class="tab-btn active-btn" data-tab="#tab-3"><span>Ethnic Cuisine</span></li>
+                        {{-- <li class="tab-btn active-btn" data-tab="#tab-3"><span>Ethnic Cuisine</span></li> --}}
                         <li class="tab-btn active-btn" data-tab="#tab-4"><span>Cafés and Bistros</span></li>
                         <li class="tab-btn active-btn" data-tab="#tab-4"><span>Clubs</span></li>
                     </ul>
@@ -856,7 +971,7 @@
     </section> --}}
 
     <!--Testimonials Section-->
-    <section class="testimonials-section" id="contact">
+    <section class="testimonials-section"id="contact_section">
         <div class="image-layer" style="background-image: url(images/background/image-2.jpg);"></div>
         <div class="auto-container">
             <div class="carousel-box">
@@ -905,7 +1020,7 @@
                     </div>
                 </div>
                 <div class="separator"><span></span><span></span><span></span></div>
-                <div class="thumbs-carousel-box">
+                <div class="thumbs-carousel-box" >
                     <div class="testi-thumbs owl-theme owl-carousel">
                         <div class="slide-item">
                             <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
@@ -938,7 +1053,7 @@
     </section>
 
     <!--Reservation Section-->
-    <section class="reserve-section">
+    <section class="reserve-section" >
         {{-- <livewire:contact-us/> --}}
 
         @livewire('contact-us')
@@ -946,9 +1061,9 @@
     </section>
 
     <!--Why Us Section-->
-    <section class="why-us">
-        <div class="left-bg"><img src="images/background/bg-8.png" alt="" title=""></div>
-        <div class="right-bg"><img src="images/background/bg-7.png" alt="" title=""></div>
+    {{-- <div class="left-bg"><img src="images/background/bg-8.png" alt="" title=""></div>
+    <div class="right-bg"><img src="images/background/bg-7.png" alt="" title=""></div> --}}
+    {{-- <section class="why-us">
         <div class="auto-container">
             <div class="title-box centered">
                 <div class="subtitle"><span>why choose us</span></div>
@@ -994,7 +1109,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!--Featured Links Section-->
     {{-- <section class="featured-links">
@@ -1155,7 +1270,7 @@
     </section> --}}
 
     <!--Intro Section-->
-    <section class="intro-section">
+    {{-- <section class="intro-section">
         <div class="image-layer" style="background-image: url(images/background/image-3.jpg);"></div>
         <div class="auto-container">
             <div class="content-box">
@@ -1215,7 +1330,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
     <!--Recnt Updates Section-->
     {{-- <section class="news-section">

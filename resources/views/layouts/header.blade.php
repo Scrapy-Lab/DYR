@@ -25,7 +25,7 @@
             <div class="main-box clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                     <div class="logo"><a href="index.html" title="DYR"><img src="images/logo.png" alt="DYR" title="DYR"></a></div>
+                     <div class="logo"><a  title="DYR"><img src="images/logo.png" alt="DYR" title="DYR"></a></div>
                 </div>
 
                 <div class="nav-box clearfix">
@@ -33,7 +33,7 @@
                     <div class="nav-outer clearfix">
                         <nav class="main-menu">
                             <ul class="navigation clearfix">
-                                <li class="current" id="home"><a href="index.html">Home</a>
+                                <li  class="scroll-to-target current" data-target="html" id="home"><a >Home</a>
                                 </li>
                                 {{-- <li class="dropdown has-mega-menu"><a href="menu-list.html">Menus</a>
                                     <ul>
@@ -65,7 +65,8 @@
                                         </li>
                                     </ul>
                                 </li> --}}
-                                <li class="navBar" id="aboutUs"><a href="about.html">About Us</a></li>
+                                <li class="navBar" id="aboutUs"><a href="#about_us">About Us</a></li>
+                                <li class="navBar" id="categoriesTab"><a href="#category_section">Category</a></li>
                                 {{-- <li><a href="our-chef.html">Our chefs</a></li> --}}
                                 {{-- <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
@@ -82,7 +83,7 @@
                                         <li><a href="#">Dropdown Lorem 5</a></li>
                                     </ul>
                                 </li> --}}
-                                <li id="contactLink"><a href="#contact" >Contact</a></li>
+                                <li  class=" "><a href="#contact_section" >Contact</a></li>
                             </ul>
                         </nav>
                         <!-- Main Menu End-->
@@ -91,7 +92,7 @@
 
                     <div class="links-box clearfix">
                         <div class="link link-btn">
-                            <a href="#contact" class="theme-btn btn-style-one clearfix">
+                            <a   class="theme-btn btn-style-one clearfix contactLink">
                                 <span class="btn-wrap">
                                     <span class="text-one">book a call</span>
                                     <span class="text-two">book a call</span>
@@ -136,12 +137,12 @@
     <!-- Hidden Bar Wrapper -->
     <div class="inner-box">
         <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
-        <div class="logo-box"><a href="index.html" title="DYR"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
+        <div class="logo-box"><a  title="DYR"><img src="images/resource/sidebar-logo.png" alt="" title="Delici - Restaurants HTML Template"></a></div>
 
         <!-- .Side-menu -->
         <div class="side-menu">
              <ul class="navigation clearfix">
-                <li class="current"><a href="index.html">Home</a>
+                <li class="current"><a >Home</a>
                 </li>
                 <li class="dropdown"><a href="menu-list.html">Menus</a>
                     <ul>
