@@ -144,17 +144,17 @@
              <ul class="navigation clearfix">
                 <li class="current"><a >Home</a>
                 </li>
-                <li class="dropdown"><a href="menu-list.html">Menus</a>
+                {{-- <li class="dropdown"><a href="menu-list.html">Menus</a>
                     <ul>
                         <li><a href="menu-list-1.html">Menu List 1</a></li>
                         <li><a href="menu-list-2.html">Menu List 2</a></li>
                         <li><a href="menu-list-3.html">Menu List 3</a></li>
                         <li><a href="menu-list-4.html">Menu List 4</a></li>
                     </ul>
-                </li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="our-chef.html">Our chefs</a></li>
-                <li class="dropdown"><a href="#">Pages</a>
+                </li> --}}
+
+                {{-- <li><a href="our-chef.html">Our chefs</a></li> --}}
+                {{-- <li class="dropdown"><a href="#">Pages</a>
                     <ul>
                         <li><a href="#">Dropdown Menu 1</a></li>
                         <li><a href="#">Dropdown Menu 2</a></li>
@@ -168,8 +168,10 @@
                         </li>
                         <li><a href="#">Dropdown Lorem 5</a></li>
                     </ul>
-                </li>
-                <li><a href="contact-us.html">Contact</a></li>
+                </li> --}}
+                <li class="navBar" ><a href="#about_us">About Us</a></li>
+                <li class="navBar" ><a href="#category_section">Category</a></li>
+                <li  class=" "><a href="#contact_section" >Contact</a></li>
             </ul>
         </div><!-- /.Side-menu -->
 
