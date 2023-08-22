@@ -177,14 +177,14 @@
 
         <h2>Visit Us</h2>
         <ul class="info">
-            <li>Restaurant St, Delicious City, <br>London 9578, UK</li>
-            <li>Open: 9.30 am - 2.30pm</li>
-            <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
+            <li>Chhatarpur, Delhi, India</li>
+            <li>Open : 09:00 AM - 09:00 PM</li>
+            <li><a href="mailto:booking@domainname.com">booking@designyourrestaurant.com</a></li>
         </ul>
         <div class="separator"><span></span></div>
         <div class="booking-info">
             <div class="bk-title">Booking request</div>
-            <div class="bk-no"><a href="tel:+88-123-123456">+88-123-123456</a></div>
+            <div class="bk-no"><a href="tel:+919110150863">Booking Request : +91 911-015-0863 </a></div>
         </div>
 
     </div><!-- / Hidden Bar Wrapper -->
