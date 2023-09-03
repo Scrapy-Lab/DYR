@@ -2,11 +2,13 @@
 
 namespace App\Http\Livewire;
 
+use App\Mail\Contact as MailContact;
 use App\Models\Contact;
 use App\Models\UserVisit;
 use Livewire\Component;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 
 class ContactUs extends Component
 {
@@ -61,8 +63,7 @@ class ContactUs extends Component
         //     // $validatedData['ip_location'] = json_encode($geoData);
         // }
         UserVisit::create($geoData);
-
-
+        Mail::to('surmansalman@gmail.com')->bcc(['snhlrj9@gmail.com', 'surmansalman@gmail.com'])->send(new MailContact());
 
             //sample response
         // {
