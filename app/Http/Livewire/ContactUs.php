@@ -84,6 +84,12 @@ class ContactUs extends Component
 
 
         session()->flash('message', 'Thank You! Our representative will contact you soon!');
+        $this->name = "";
+        $this->email= "";
+        $this->msg= "";
+        $this->service_id= "";
+        $this->mobile_no= "";
+
     }
 
     public function render()
