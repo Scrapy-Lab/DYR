@@ -236,7 +236,7 @@
                                                                 style="color: #212c38; line-height: 100%; text-align: center; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
                                                                         style="font-family: Montserrat, sans-serif; font-size: 18px; line-height: 18px;">THANK&nbsp;
-                                                                        YOU FOR YOUR RESERVATION</span></p>
+                                                                        YOU FOR YOUR INTREST</span></p>
                                                             </div>
 
                                                         </td>
