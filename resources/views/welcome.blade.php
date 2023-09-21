@@ -8,10 +8,11 @@
         <div class="inner-box">
             <div class="cross-icon"><span class="far fa-close"></span></div>
             <div class="logo-box">
-                <a href="index.html" title="Delici - Restaurants HTML Template"><img
-                        src="{{asset('images/logo.png')}}" alt="" title="Delici - Restaurants HTML Template"></a>
+                <a href="index.html" title="Delici - Restaurants HTML Template"><img src="{{ asset('images/logo.png') }}"
+                        alt="" title="Delici - Restaurants HTML Template"></a>
             </div>
-            <div class="image-box"><img src="{{asset('images/resource/sidebar-logo.jpg')}}" alt="" title=""></div>
+            <div class="image-box"><img src="{{ asset('images/resource/sidebar-logo.jpg') }}" alt="" title="">
+            </div>
 
             <h2>Visit Us</h2>
             <ul class="info">
@@ -241,8 +242,9 @@
                                     <span class="modal_exit" aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                Welcome to <b style="font-size: 20px">"Design Your Restaurant"</b> - A culinary sanctuary that merges exquisite
+                            <div class="modal-body" >
+                                Welcome to <b style="font-size: 20px" class="theme_color">"Design Your Restaurant"</b> - A culinary sanctuary
+                                that merges exquisite
                                 dining with
                                 captivating aesthetics, creating an unforgettable gastronomic experience. Design Your
                                 Restaurant is a haven for discerning food enthusiasts seeking both
@@ -269,7 +271,8 @@
                                 ambiance that's perfect for intimate conversations or celebratory gatherings.<br><br>
 
                                 <b style="font-size: 20px">Private Dining:</b>
-                                Design Your Restaurant offers private dining rooms, each uniquely designed to reflect a different
+                                Design Your Restaurant offers private dining rooms, each uniquely designed to reflect a
+                                different
                                 culinary destination. From a Parisian-inspired chamber adorned with vintage wine barrels to
                                 a futuristic Tokyo-themed room with sleek lines and minimalist décor, these private spaces
                                 offer a sense of exclusivity while maintaining a cohesive connection to the restaurant's
@@ -292,7 +295,8 @@
                                 the city's bustle. Overhead trellises adorned with fairy lights create an enchanting canopy,
                                 while potted plants and comfortable seating complete the outdoor experience.<br><br>
 
-                                Overall, Design Your Restaurant is a harmonious blend of aesthetics and gastronomy, where each
+                                Overall, Design Your Restaurant is a harmonious blend of aesthetics and gastronomy, where
+                                each
                                 element is thoughtfully curated to create an immersive dining encounter that delights the
                                 senses and nourishes the soul.
 
@@ -307,41 +311,43 @@
                     <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="images/resource/slider1.jpg" class="d-block w-100" alt="">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="images/resource/slider2.jpg" class="d-block w-100" alt="">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="images/resource/slider3.jpg" class="d-block w-100" alt="">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="images/resource/image-1.jpg" class="d-block w-100" alt="">
-                              </div>
+                                <div class="carousel-item active">
+                                    <img src="images/resource/slider1.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/resource/slider2.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/resource/slider3.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/resource/image-1.jpg" class="d-block w-100" alt="">
+                                </div>
                             </div>
-                           <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
                             </button>
-                          </div>
+                        </div>
 
 
                         {{-- <div class="round-stamp"><img src="images/resource/badge-1.png" alt=""></div> --}}
                         {{-- <div class="images parallax-scene-1">
                             <div class="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="">
                             </div> --}}
-                            {{-- <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
+                        {{-- <div class="image" data-depth="0.30"><img src="images/resource/image-2.jpg" alt="">
                             </div> --}}
-                        </div>
                     </div>
                 </div>
-
             </div>
+
+        </div>
         </div>
     </section>
 
@@ -979,73 +985,67 @@
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">Working with their team has been a transformative experience for our restaurant business. From the moment we engaged their services, we were met with professionalism, expertise, and a genuine commitment to our success.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">Thanks to them, our restaurant has not only survived but thrived in a highly competitive market. Their dedication and ongoing support have been invaluable. I highly recommend Design Your Restaurant to any restaurant owner or operator seeking to elevate their business to the next level. They are truly experts in their field and have had a profound impact on our success</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">They conducted a thorough analysis of our restaurant's operations, identifying key areas for improvement. Their recommendations were not only insightful but also practical and tailored to our specific needs. They helped us streamline our menu, optimize our kitchen operations, and enhance the overall dining experience.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">I had the pleasure of working with them to transform my restaurant's interior, and I am absolutely thrilled with the results. The level of creativity, professionalism, and attention to detail they brought to the project was truly exceptional.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">They demonstrated a deep understanding of our vision and goals. They took the time to listen to our ideas and preferences, and then combined their expertise to create a design concept that exceeded our expectations.</div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div class="slide-content">
                             <div class="quotes">”</div>
-                            <div class="text quote-text">I wanted to thank you for inviting me down for that amazing dinner
-                                the other night. The food was extraordinary.</div>
+                            <div class="text quote-text">Throughout the project, they maintained clear communication, keeping us informed at every stage and addressing any questions or concerns promptly. Their professionalism and commitment to delivering on time and within budget were truly impressive.</div>
                         </div>
                     </div>
                 </div>
                 <div class="separator"><span></span><span></span><span></span></div>
-                <div class="thumbs-carousel-box" >
+                <div class="thumbs-carousel-box">
                     <div class="testi-thumbs owl-theme owl-carousel">
-                        <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
-                            <div class="auth-title">Sam Jhonson</div>
-                        </div>
-                        <div class="slide-item">
+                        {{-- <div class="slide-item">
+                            {<div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
+                            <div class="auth-title">Vikash Dhangi</div>
+                        </div> --}}
+                        {{-- <div class="slide-item">
                             <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
-                            <div class="auth-title">Ian Botham</div>
+                            <div class="auth-title">Alok Anand</div>
                         </div>
                         <div class="slide-item">
                             <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
-                            <div class="auth-title">Dan Bitson</div>
+                            <div class="auth-title">Sherya Diwivedi</div>
                         </div>
                         <div class="slide-item">
                             <div class="image"><img src="images/resource/author-thumb-1.jpg" alt=""></div>
-                            <div class="auth-title">Sam Jhonson</div>
+                            <div class="auth-title">Hardik Khiloskar</div>
                         </div>
                         <div class="slide-item">
                             <div class="image"><img src="images/resource/author-thumb-2.jpg" alt=""></div>
-                            <div class="auth-title">Ian Botham</div>
+                            <div class="auth-title">Vivek Khanna</div>
                         </div>
                         <div class="slide-item">
-                            <div class="image"><img src="images/resource/author-thumb-3.jpg" alt=""></div>
-                            <div class="auth-title">Dan Bitson</div>
-                        </div>
+                            <div class="image"><img src="images/resource/author-thumb-4.jpg" alt=""></div>
+                            <div class="auth-title">Rohit Singh</div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -1053,7 +1053,7 @@
     </section>
 
     <!--Reservation Section-->
-    <section class="reserve-section" >
+    <section class="reserve-section">
         {{-- <livewire:contact-us/> --}}
 
         @livewire('contact-us')

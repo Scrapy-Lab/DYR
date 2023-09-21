@@ -33,7 +33,8 @@
                     <div class="nav-outer clearfix">
                         <nav class="main-menu">
                             <ul class="navigation clearfix">
-                                <li  class="scroll-to-target current" data-target="html" id="home"><a >Home</a>
+                                {{-- id="home" --}}
+                                <li  class="scroll-to-target {{Route::currentRouteName() == 'home' ?  'current' : '' }} " data-target="html" ><a href="{{route('home')}}" >Home</a>
                                 </li>
                                 {{-- <li class="dropdown has-mega-menu"><a href="menu-list.html">Menus</a>
                                     <ul>
@@ -65,7 +66,8 @@
                                         </li>
                                     </ul>
                                 </li> --}}
-                                <li class="navBar" id="aboutUs"><a href="#about_us">About Us</a></li>
+                                {{-- id="aboutUs" --}}
+                                <li class="navBar {{Route::currentRouteName() == 'aboutUs' ?  'current' : '' }}"  ><a href="{{route('aboutUs')}}">About Us</a></li>
                                 <li class="navBar" id="categoriesTab"><a href="#category_section">Category</a></li>
                                 {{-- <li><a href="our-chef.html">Our chefs</a></li> --}}
                                 {{-- <li class="dropdown"><a href="#">Pages</a>
@@ -169,7 +171,7 @@
                         <li><a href="#">Dropdown Lorem 5</a></li>
                     </ul>
                 </li> --}}
-                <li class="navBar" ><a href="#about_us">About Us</a></li>
+                <li class="navBar" ><a href="{{route('aboutUs')}}">About Us</a></li>
                 <li class="navBar" ><a href="#category_section">Category</a></li>
                 <li  class=" "><a href="#contact_section" >Contact</a></li>
             </ul>
