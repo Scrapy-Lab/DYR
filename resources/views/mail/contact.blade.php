@@ -47,7 +47,7 @@
         }
 
         a {
-            color: #003580;
+            color: rgb(255, 249, 249);
             text-decoration: underline;
         }
 
@@ -136,16 +136,16 @@
 </head>
 
 <body class="clean-body" id="section-to-print"
-    style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #333333;color: #000000">
+    style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: rgb(14,13,12);color: #000000">
     <!--[if IE]><div class="ie-container"><![endif]-->
     <!--[if mso]><div class="mso-container"><![endif]-->
     <table
-        style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #333333;width:100%"
+        style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: rgb(14,13,12);width:100%"
         cellpadding="0" cellspacing="0">
         <tbody>
             <tr style="vertical-align: top">
                 <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                    <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #333333;"><![endif]-->
+                    <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: rgb(14,13,12);"><![endif]-->
 
                         <div class="section-to-print">
                     <div class="u-row-container" style="padding: 0px;background-color: transparent">
@@ -168,7 +168,7 @@
                                                 cellpadding="0" cellspacing="0" width="100%" border="0">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="overflow-wrap:break-word;word-break:break-word;padding:25px 10px 0px;font-family:arial,helvetica,sans-serif;background-color: #003580;"
+                                                        <td style="overflow-wrap:break-word;word-break:break-word;padding:25px 10px 0px;font-family:arial,helvetica,sans-serif;background-color: rgb(23,24,25);"
                                                             align="left">
 
                                                             <table width="100%" cellpadding="0" cellspacing="0"
@@ -177,13 +177,13 @@
                                                                     <td style="padding-right: 0px;padding-left: 0px;"
                                                                         align="center">
 
-                                                                        {{-- <img align="center" border="0"
-                                                                            src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
+                                                                         <img align="center" border="0"
+                                                                            src="https://designyourrestaurant.com/images/logo.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
-                                                                            width="200px" /> --}}
+                                                                            width="200px" />
 
-                                                                            <h1 class="logoName" style="margin-top: -20px;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
+                                                                            <!-- <h1 class="logoName" style="margin-top: -20px;"><span style="color:#fff">Design You Restaurant</span></h1> -->
 
                                                                     </td>
                                                                 </tr>
@@ -358,8 +358,8 @@
                                                                 style="color: #ffffff;line-height: 100%;text-align: left;word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
                                                                         style="font-size: 28px; line-height: 28px; font-family: 'trebuchet ms', geneva;"><strong><span
-                                                                                style="line-height: 28px; font-size: 28px;">RESERVATION
-                                                                                DETAILS</span></strong></span></p>
+                                                                                style="line-height: 28px; font-size: 28px;">Lead
+                                                                                Details</span></strong></span></p>
                                                             </div>
 
                                                         </td>
@@ -819,13 +819,13 @@
 
                     </div>
 
+                    rgb(14,13,12)
 
 
 
 
 
-
-                    <div class="u-row-container" style="padding: 0px;background-color: #003580;
+                    <div class="u-row-container" style="padding: 0px;background-color: rgb(23,24,25);
                     ">
                         <div class="u-row"
                             style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
@@ -855,11 +855,11 @@
                                                                     <td style="padding-right: 0px;padding-left: 0px;"
                                                                         align="left">
 
-                                                                        <img align="center" border="0"
+                                                                        <!-- <img align="center" border="0"
                                                                             src="https://uxdesigns.in/project/hotels/public/img/logo/mainLogo_1.png"
                                                                             alt="Logo" title="Logo"
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
-                                                                            width="200px" />
+                                                                            width="200px" /> -->
 
 
 
@@ -882,7 +882,12 @@
                                                             <div
                                                                 style="line-height: 150%; text-align: left; word-wrap: break-word;">
 
-                                                                <h1 class="logoName" style="margin-top: -50px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1>
+                                                                <img align="center" border="0"
+                                                                src="https://designyourrestaurant.com/images/logo.png"
+                                                                alt="Logo" title="Logo"
+                                                                style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 150px;"
+                                                                width="200px" />
+                                                                <!-- <h1 class="logoName" style="margin-top: -50px; font-size: 14px; line-height: 150%;">Hotels in <span style="color:#fff">Bo</span>dhgaya</h1> -->
                                                             </div>
 
 
@@ -1001,9 +1006,9 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 150%; text-align: right; word-wrap: break-word;">
-                                                                <p style="font-size: 14px; line-height: 150%;"><span
-                                                                        style="font-size: 16px; line-height: 24px;">www.hotelinbodhgaya.com</span>
-                                                                </p>
+                                                               <a href="https://designyourrestaurant.com/">  <p style="font-size: 14px; line-height: 150%;"><span
+                                                                        style="font-size: 16px; line-height: 24px;">designyourrestaurant.com/</span>
+                                                                </p></a>
                                                             </div>
 
                                                         </td>

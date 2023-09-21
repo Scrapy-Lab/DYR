@@ -25,7 +25,7 @@
             <div class="main-box clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                     <div class="logo"><a  title="DYR"><img src="images/logo.png" alt="DYR" title="DYR"></a></div>
+                     <div class="logo"><a  title="DYR"><img src="{{asset('images/logo.png')}}" alt="DYR" title="DYR"></a></div>
                 </div>
 
                 <div class="nav-box clearfix">
