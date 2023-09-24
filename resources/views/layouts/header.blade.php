@@ -85,7 +85,8 @@
                                         <li><a href="#">Dropdown Lorem 5</a></li>
                                     </ul>
                                 </li> --}}
-                                <li  class=" "><a href="#contact_section" >Contact</a></li>
+                                {{-- #contact_section --}}
+                                <li  class="  {{Route::currentRouteName() == 'aboutUs' ?  'current' : '' }}"><a href="{{route('contactUs')}}" >Contact</a></li>
                             </ul>
                         </nav>
                         <!-- Main Menu End-->
