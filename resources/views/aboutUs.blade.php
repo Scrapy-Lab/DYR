@@ -60,7 +60,7 @@
                         <div class="text">Our vision is simple yet powerful: to elevate the dining experience by crafting spaces that are not just visually stunning but also highly functional. We understand that the design of a restaurant is not just about aesthetics; it's about creating an atmosphere that resonates with your brand, caters to your target audience, and maximizes the operational efficiency of your establishment.</div>
                         <div class="signature"><img src="images/resource/signature-1.png" alt="" title="">
                         </div>
-                        <div class="author">Surman Salman - founder</div>
+                        {{-- <div class="author">Surman Salman - founder</div> --}}
                         <div class="video-box">
                             <div class="image"><a href="https://www.youtube.com/watch?v=ZETY_l3GVQg"
                                     class="lightbox-image"><img src="images/resource/about-image-1.jpg" alt=""></a>
