@@ -437,9 +437,9 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;">
-                                                                <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: georgia, palatino;font-size: 16px;line-height: 16px;text-align: right;display: block;"> {{$data->name}}</span>
-                                                                </p>
+                                                                {{-- <p style="font-size: 14px; line-height: 100%;"><span
+                                                                        style="font-family: georgia, palatino;font-size: 16px;line-height: 16px;text-align: right;display: block;"> #{{$booked->invoice_no}}</span>
+                                                                </p> --}}
                                                             </div>
 
                                                         </td>
@@ -485,7 +485,8 @@
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Mobile No:</span></p>
+                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Guest
+                                                                        Name:</span></p>
                                                             </div>
 
                                                         </td>
@@ -516,8 +517,8 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;text-align: right;display: block;">
-                                                                <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{$data->mobile_no}}</span></p>
+                                                                {{-- <p style="font-size: 14px; line-height: 100%;"><span
+                                                                        style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{$user->name}}</span></p> --}}
                                                             </div>
 
                                                         </td>
@@ -563,7 +564,8 @@
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Service:</span></p>
+                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Arrival
+                                                                        Date:</span></p>
                                                             </div>
 
                                                         </td>
@@ -594,8 +596,8 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;text-align: right;display: block;">
-                                                                <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{  $data->service_id }}</span></p>
+                                                                {{-- <p style="font-size: 14px; line-height: 100%;"><span --}}
+                                                                        {{-- style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{  \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $booked->start)->format('M d, Y') }}</span></p> --}}
                                                             </div>
 
                                                         </td>
@@ -641,7 +643,8 @@
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Email:</span></p>
+                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Departure
+                                                                        Date:</span></p>
                                                             </div>
 
                                                         </td>
@@ -672,8 +675,8 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;text-align: right;display: block;">
-                                                                <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{ $data->email}}</span></p>
+                                                                {{-- <p style="font-size: 14px; line-height: 100%;"><span --}}
+                                                                        {{-- style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{  \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $booked->end)->format('M d, Y') }}</span></p> --}}
                                                             </div>
 
                                                         </td>
@@ -719,7 +722,8 @@
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Message:</span></p>
+                                                                        style="font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 16px;">Number
+                                                                        of Nights:</span></p>
                                                             </div>
 
                                                         </td>
@@ -750,11 +754,11 @@
 
                                                             <div
                                                                 style="color: #ffffff; line-height: 100%; text-align: left; word-wrap: break-word;text-align: right;display: block;">
-                                                                <p style="font-size: 14px; line-height: 100%;"><span
-                                                                        style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{$data->msg}}</span>
+                                                                {{-- <p style="font-size: 14px; line-height: 100%;"><span --}}
+                                                                        {{-- style="font-family: georgia, palatino; font-size: 16px; line-height: 16px;">{{$totalTime}}</span> --}}
                                                                 </p>
                                                             </div>
-                                                                {{-- <button onclick="window.print()"> click to print</button> --}}
+                                                                <button onclick="window.print()"> click to print</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>

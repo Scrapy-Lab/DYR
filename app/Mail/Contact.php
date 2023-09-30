@@ -16,7 +16,7 @@ class Contact extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct(private $data)
     {
         //
     }
@@ -38,6 +38,7 @@ class Contact extends Mailable
     {
         return new Content(
             view: 'mail.contact',
+            with: ['data' => $this->data],
         );
     }
 

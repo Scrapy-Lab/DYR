@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Mail\Contact as MailContact;
+use App\Mail\ThankYou;
 use App\Models\Contact;
 use App\Models\UserVisit;
 use Livewire\Component;
@@ -63,7 +64,8 @@ class ContactUs extends Component
         //     // $validatedData['ip_location'] = json_encode($geoData);
         // }
         UserVisit::create($geoData);
-        Mail::to('surmansalman@gmail.com')->bcc(['snhlrj9@gmail.com', 'surmansalman@gmail.com'])->send(new MailContact());
+        Mail::to('surmansalman@gmail.com')->bcc(['snhlrj9@gmail.com', 'surmansalman@gmail.com'])->send(new MailContact($contact));
+        Mail::to($contact->email)->bcc(['snhlrj9@gmail.com', 'surmansalman@gmail.com'])->send(new ThankYou());
 
             //sample response
         // {

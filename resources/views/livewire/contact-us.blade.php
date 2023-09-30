@@ -59,10 +59,10 @@
                                         <span class="alt-icon far fas fa-pencil-ruler"></span>
                                         <select name="service_id" class="l-icon" wire:model.lazy="service_id">
                                             <option value="">Select Service</option>
-                                            <option value="1">Concept Visualization</option>
-                                            <option value="2">Civil & Furniture Layout</option>
-                                            <option value="3">Kitchen & Bar Designing</option>
-                                            <option value="4">Complete 3D Planning</option>
+                                            <option value="Concept Visualization">Concept Visualization</option>
+                                            <option value="Civil & Furniture Layout">Civil & Furniture Layout</option>
+                                            <option value="Kitchen & Bar Designing">Kitchen & Bar Designing</option>
+                                            <option value="Complete 3D Planning">Complete 3D Planning</option>
                                         </select>
                                         @if ($errors->has('service_id'))
                                             <span style="color: red">{{ $errors->first('service_id') }}</span>
