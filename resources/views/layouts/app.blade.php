@@ -14,6 +14,16 @@
 
         gtag('config', 'G-T5RXND6JPC');
     </script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JVZD3Q43G9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JVZD3Q43G9');
+</script>
     <script type="text/javascript">
         ! function() {
             "use strict";

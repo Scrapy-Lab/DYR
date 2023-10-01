@@ -17,7 +17,10 @@
     <meta name="x-apple-disable-message-reformatting">
     <!--[if !mso]><!-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
-    <title></title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <title>Thank You</title>
 
     <style type="text/css">
         @media print {
