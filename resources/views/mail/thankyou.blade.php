@@ -484,7 +484,7 @@
                                                                                         <div
                                                                                             style="color: #ffffff; line-height: 150%; text-align: right; word-wrap: break-word;">
                                                                                             <p style="font-size: 14px; line-height: 150%;"><span
-                                                                                                    style="font-size: 16px; line-height: 24px;"><a href="tel:+919110150863">+91 911-015-0863</a></span>
+                                                                                                    style="font-size: 16px; line-height: 24px;"><a href="tel:+918603526364">+91 860-352-6364</a></span>
                                                                                             </p>
                                                                                         </div>
 

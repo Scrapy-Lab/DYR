@@ -23,7 +23,7 @@
             <div class="separator"><span></span></div>
             <div class="booking-info">
                 <div class="bk-title">Booking request</div>
-                <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
+                <div class="bk-no"><a href="tel:+918603526364">+91 860-352-6364</a></div>
             </div>
         </div>
     </section>

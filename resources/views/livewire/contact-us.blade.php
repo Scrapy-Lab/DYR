@@ -5,7 +5,7 @@
                 <div class="inner">
                     <div class="title">
                         <h2>Get In Touch</h2>
-                        <div class="request-info">Call at <a href="tel:+919110150863">+91 911-015-0863 </a> / <a
+                        <div class="request-info">Call at <a href="tel:+918603526364">+91 860-352-6364 </a> / <a
                                 href="tel:+917979068408"> +91 797-906-8408</a> or fill out
                             the form</div>
                     </div>
@@ -146,7 +146,7 @@
                     <div class="data">
                         <div class="booking-info">
                             <div class="bk-title">Direct Contact</div>
-                            <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
+                            <div class="bk-no"><a href="tel:+918603526364">+91 860-352-6364</a></div>
                         </div>
                         <div class="separator"><span></span></div>
                         <ul class="info">

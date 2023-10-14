@@ -15,7 +15,7 @@
                                     <ul>
                                         <li>Chhatarpur, Delhi, India</li>
                                         <li><a href="mailto:booking@domainname.com">booking@designyourrestaurant.com</a></li>
-                                        <li><a href="tel:+919110150863">Booking Request : +91 911-015-0863 </a></li>
+                                        <li><a href="tel:+918603526364">Booking Request : +91 860-352-6364 </a></li>
                                         <li>Open : 09:00 AM - 09:00 PM</li>
                                     </ul>
                                 </div>

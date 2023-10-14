@@ -11,7 +11,7 @@
                 </div>
                 <div class="top-right clearfix">
                     <ul class="top-info clearfix">
-                        <li><a href="tel:+919110150863"><i class="icon far fa-phone"></i>  +91 911-015-0863</a></li>
+                        <li><a href="tel:+918603526364"><i class="icon far fa-phone"></i>  +91 860-352-6364</a></li>
                         <li><a href="mailto:booking@designyourrestaurant.com"><i class="icon far fa-envelope"></i> booking@designyourrestaurant.com</a></li>
                     </ul>
                 </div>
@@ -187,7 +187,7 @@
         <div class="separator"><span></span></div>
         <div class="booking-info">
             <div class="bk-title">Booking request</div>
-            <div class="bk-no"><a href="tel:+919110150863">Booking Request : +91 911-015-0863 </a></div>
+            <div class="bk-no"><a href="tel:+918603526364">Booking Request : +91 860-352-6364 </a></div>
         </div>
 
     </div><!-- / Hidden Bar Wrapper -->

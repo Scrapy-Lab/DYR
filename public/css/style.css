@@ -3096,7 +3096,7 @@ body.visible-sidebar {
 
 .reserve-section .info-col .booking-info .bk-no a {
     color: var(--main-color);
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .reserve-section .info-col .booking-info .bk-no a:before {

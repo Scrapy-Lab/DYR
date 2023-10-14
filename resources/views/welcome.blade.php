@@ -23,7 +23,7 @@
             <div class="separator"><span></span></div>
             <div class="booking-info">
                 <div class="bk-title">Booking request</div>
-                <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div>
+                <div class="bk-no"><a href="tel:+918603526364">+91 860-352-6364</a></div>
             </div>
         </div>
     </section>
@@ -206,7 +206,7 @@
                         </div>
                         <div class="booking-info">
                             {{-- <div class="bk-title">Book Through Call</div> --}}
-                            {{-- <div class="bk-no"><a href="tel:+919110150863">+91 911-015-0863</a></div> --}}
+                            {{-- <div class="bk-no"><a href="tel:+918603526364">+91 860-352-6364</a></div> --}}
 
                             <div class="link-box">
                                 <!-- Button trigger modal -->
@@ -217,10 +217,10 @@
                                         <span class="text-two ">About Us</span>
                                     </span>
                                 </button>
-                                {{-- <a href="tel:+919110150863" class="theme-btn btn-style-two clearfix">
+                                {{-- <a href="tel:+918603526364" class="theme-btn btn-style-two clearfix">
                                     <span class="btn-wrap">
-                                        <span class="text-one MobileNo">+91 911-015-0863</span>
-                                        <span class="text-two MobileNo">+91 911-015-0863</span>
+                                        <span class="text-one MobileNo">+91 860-352-6364</span>
+                                        <span class="text-two MobileNo">+91 860-352-6364</span>
                                     </span>
                                 </a> --}}
                             </div>
